@@ -1,0 +1,2888 @@
+Baked Potato,100,122
+Baked Potato with Sour Cream,100,130
+Boiled Potato,100,88
+Croquettes,100,330
+Curly Fries (McCain),100,500
+French Fries (Burger King),100,249
+French Fries,100,75
+French Fries, deep-fried,100,129
+Fried Potatoes,100,104
+Gnocchi,100,163
+Khoai Lang,100,103
+Khoai Lang TÃ­m,100,116
+Large French Fries,100,289
+Latkes,100,194
+Mashed Potato with Milk and Butter,100,74
+Mashed Potatoes,100,93
+Potato,100,75
+Potato Flour,100,361
+Potato Pancake,100,268
+Potato Puffs,100,178
+Potato Salad,100,105
+Potato Salad with Egg,100,250
+Potato Sticks,100,522
+Potato Waffles,100,190
+Potato Wedges,100,162
+Potato, cooked,100,88
+Potatoes au Gratin,100,113
+Red Potatoes,100,70
+Roast Potatoes,100,152
+Roasted Sweet Potatoes,100,112
+Rosemary Potatoes,100,162
+Russet Potatoes,100,83
+Shoestring French Fries,100,80
+Small French Fries,100,291
+Sweet Potato,100,116
+Sweet Potato Fries,100,162
+White Potatoes,100,69
+Yam,100,116
+Adzuki Beans, cooked,100,128
+Agurkas,100,15
+Aloe Vera,100,2
+Amaranth Leaves,100,23
+Arame,100,300
+Armenian Cucumber,100,17
+Arracacha,100,104
+Arrowhead,100,99
+Arrowroot,100,65
+Artichoke,100,44
+Asparagus, raw,100,21
+Azuki Bean,100,361
+Baked Beans,100,105
+Baked Beans, canned,100,105
+Bamboo Shoot,100,23
+Banana Pepper,100,27
+Bean Sprouts,100,47
+Beet Greens, raw,100,343
+Beetroot,100,46
+Beets, canned,100,29
+Beets, raw,100,46
+Bell Pepper,100,23
+Bengal Gram,100,378
+Black Beans,100,373
+Black Beans, cooked,100,89
+Black Chana,100,378
+Black Chickpeas,100,348
+Black Eyed Pea,100,400
+Black Gram,100,371
+Black Turtle Beans, cooked,100,373
+Bok Choy,100,17
+Broccoli,100,34
+Broccoli, cooked,100,27
+Brown Lentil,100,364
+Brussels Sprouts,100,44
+Burdock,100,72
+Butternut Squash, cooked,100,30
+Butternut Squash, raw,100,46
+Cabbage,100,30
+Cabbage, cooked,100,12
+Cabbage, raw,100,25
+Capers, canned,100,23
+Capsicum,100,40
+Carrot,100,39
+Carrots, cooked,100,23
+Cattail,100,200
+Cauliflower Rice,100,24
+Cauliflower,100,28
+Cauliflower, cooked,100,28
+Celeriac,100,27
+Celery, cooked,100,25
+Celery, raw,100,22
+Celtuce,100,18
+Cherry Tomato,100,20
+Chickpea,100,151
+Chickpeas, canned,100,135
+Chickpeas, raw,100,378
+Chicory,100,23
+Chicory Greens,100,23
+Chili Pepper Leaves,100,27
+Chinese Cabbage,100,17
+Collard Greens,100,32
+Common Bean,100,111
+Common Purslane,100,20
+Cooked Beetroot,100,43
+Cooked Chickpeas,100,140
+Corn Kernel,100,71
+Corn on Cob,100,45
+Corn on the Cob with Butter,100,249
+Corn, canned,100,81
+Corn, cooked,100,94
+Cranberry Beans, cooked,100,136
+Creamed Spinach,100,62
+Cucamber,100,14
+Cucumber, peeled,100,10
+Daikon,100,38
+Dandelion,100,47
+Daylily,100,42
+Dill Pickles,100,439
+Dock,100,22
+Dried Tomatoes,100,78
+Eggplant,100,20
+Elephant Foot Yam,100,118
+Elephant Garlic,100,125
+Fava Bean,100,89
+Fava Beans, canned,100,71
+Fennel,100,23
+Fiddlehead,100,34
+Flageolet,100,346
+Garbanzo,100,478
+Garland Chrysanthemum,100,24
+Garlic,100,143
+Good King Henry,100,74
+Gourd,100,20
+Grape Leaves,100,130
+Grape Tomatoes,100,31
+Green,100,500
+Green Beans,100,39
+Green Beans, cooked,100,41
+Green Beans, steamed,100,51
+Green Chili Pepper,100,40
+Green Gram,100,313
+Green Lentil,100,352
+Green Onion,100,32
+Green Peas,100,91
+Green Tomato,100,28
+Grilled Mixed Vegetables,100,91
+Habanero,100,40
+Heart of Palm,100,44
+Horse Gram,100,89
+Horseradish,100,78
+Hot Pepper,100,40
+Hyacinth Bean,100,71
+Ivy gourd,100,20
+Jalapeno,100,29
+Japanese Sweet Potatoes,100,88
+Jerusalem Artichoke,100,53
+JÃ­cama,100,311
+Kale,100,45
+Kale, cooked,100,44
+Kale, raw,100,43
+Kelp,100,380
+Kidney Beans,100,298
+Kimchi,100,15
+Komatsuna,100,22
+Kombu,100,250
+Kumara,100,116
+Lamb's Quarters,100,43
+Laver Seaweed,100,35
+Leaf Celery,100,28
+Leek,100,31
+Lentil,100,331
+Lentil Sprouts,100,106
+Lentils cooked,100,87
+Lima Bean,100,70
+Lima Beans, canned,100,45
+Lotus Root,100,74
+Luffa,100,20
+Malabar spinach,100,498
+Mallow,100,272
+Masoor Dal,100,368
+Mixed Vegetable Salad,100,56
+Mixed Vegetables, steamed,100,59
+Mizuna Greens,100,29
+Moong Dal,100,313
+Moringa Leaves,100,204
+Moringa Powder,100,300
+Moth Bean,100,343
+Mozuku,100,48
+Mung Bean,100,313
+Mung Beans, cooked,100,357
+Mushrooms, enoki,100,44
+Mustard Greens,100,500
+Napa Cabbage,100,351
+Napa Cabbage, cooked,100,105
+Natto,100,207
+Navy Bean,100,384
+Navy Beans, canned,100,368
+New Zealand Spinach,100,14
+Okara,100,220
+Okra,100,147
+Okra, cooked,100,237
+Onion, cooked,100,30
+Onion, minced,100,30
+Onion, raw,100,30
+Parsnip,100,64
+Pea,100,91
+Peanuts, roasted,100,599
+Pearl Onion,100,208
+Peas, canned,100,63
+Peas, cooked,100,84
+Pickle Relish,100,130
+Pickle,100,28
+Pigeon Pea,100,282
+Pinto Beans,100,263
+Pinto Beans, canned,100,310
+Pinto Beans, cooked,100,213
+Poi,100,243
+Pointed gourd,100,20
+Poke,100,368
+Potato onion,100,38
+Pumpkin,100,29
+Pumpkin Flower,100,15
+Pumpkin, canned,100,34
+Pumpkin, cooked,100,20
+Puy Lentils,100,36
+Radicchio,100,17
+Radish,100,17
+Rapa Cabbage,100,28
+Red Beans,100,53
+Red Bell Pepper,100,44
+Red Cabbage, cooked,100,25
+Red Cabbage, raw,100,27
+Red Lentils,100,367
+Red Onion,100,30
+Red Spinach,100,25
+Refried Beans,100,83
+Ridged Gourd,100,13
+Roasted Asparagus,100,47
+Roasted Carrots,100,40
+Roma Tomato,100,20
+Runner Bean,100,39
+Rutabaga,100,36
+Salsify,100,517
+Sea Beet,100,21
+Sea Lettuce,100,130
+Serrano Pepper,100,473
+Shallot,100,25
+Shepherd's Purse,100,103
+Siling Haba,100,44
+Skirret,100,95
+Snake Gourd,100,21
+Sorrel,100,26
+Sour Cabbage,100,21
+Sour Pickles,100,13
+Soybean,100,149
+Soybean, cooked,100,172
+Spaghetti Squash, cooked,100,166
+Spinach,100,22
+Spinach canned,100,52
+Spinach, cooked,100,19
+Spirulina,100,26
+Split Peas cooked,100,118
+Steamed Broccoli,100,36
+Stewed Tomatoes canned,100,21
+String Beans,100,39
+Sugar Peas,100,69
+Swamp Cabbage,100,19
+Swede,100,36
+Sweet Onion,100,446
+Sweet Pickles,100,60
+Sweet Potato Leaves, cooked,100,382
+Sweet Potato, baked,100,64
+Sweet Potato, boiled,100,124
+Sweet potato Leaves,100,221
+Sweetcorn,100,94
+Swiss chard,100,21
+Tang,100,47
+Taro,100,108
+Tatsoi,100,400
+Tepary Bean,100,571
+Textured Soy Protein,100,446
+Textured Vegetable Protein,100,197
+Tinda,100,336
+Tomato,100,20
+Tomato, cooked,100,22
+Turnip,100,39
+Turnip Greens,100,32
+Urad bean,100,429
+Vegetable Stock,100,24
+Velvet bean,100,334
+Wakame,100,178
+Water Spinach,100,515
+White Beans,100,120
+White Beans, canned,100,71
+White Beans, cooked,100,127
+White Icicle Radish,100,80
+Wild leek,100,61
+Winged bean,100,49
+Winter Squash,100,395
+Yam Bean,100,656
+Yellow Beans, cooked,100,39
+Yellow Bell Pepper,100,37
+Yellow Lentils,100,354
+Yellow Paprika,100,37
+Yellow Tomato,100,15
+Yucca,100,141
+Yukon Gold Potatoes,100,196
+Zeytin,100,116
+Zucchini cooked,100,24
+Zucchini,100,23
+Zucchini, raw/fresh,100,23
+,100,35
+Breaded mushrooms,100,37
+Champignons,100,24
+Chanterelle Mushrooms,100,32
+Chanterelles,100,421
+Crimini Mushrooms,100,30
+Maitake Mushrooms,100,180
+Morchella,100,28
+Morel Mushrooms,100,28
+Mushrooms,100,25
+Mushrooms, raw,100,25
+Oyster Mushroom,100,35
+Porcini Mushroom,100,39
+Porcini Mushroom, dried,100,272
+Shiitake mushrooms,100,46
+Truffles,100,91
+White Button Mushrooms,100,60
+Arugula,100,30
+Bacon Ranch Salad,100,102
+Coleslaw,100,53
+Corn Salad,100,76
+Endive,100,18
+Garden Salad,100,19
+Greek Salad,100,72
+Grilled Chicken Salad,100,180
+Iceberg Lettuce,100,15
+Kalette,100,53
+Mixed Salad,100,14
+Red Lettuce,100,25
+Romaine Lettuce,100,18
+Side Salad,100,38
+Spring Mix,100,24
+Valerian Salad,100,18
+Vegetable Salad,100,14
+Acai Berry, puree,100,59
+Acerola,100,20
+Ackee,100,224
+Ananas,100,58
+Apple,100,64
+Apple Pink Lady,100,52
+Apple, small,100,64
+Apricot,100,45
+Apricot, dried,100,269
+Asian Pear,100,42
+Banana,100,92
+Bartlett Pear,100,55
+Bilberry,100,46
+Black Olive,100,393
+Black Sapote,100,140
+Black Seedless Grapes,100,135
+Blackberry,100,43
+Blackcurrant,100,46
+Blood Orange,100,36
+Bluberries,100,46
+Blueberries,100,46
+Boysenberry,100,50
+Breadfruit,100,103
+Cactus Pear,100,46
+Canistel,100,8
+Canned Apricots,100,56
+Canned Cherries,100,73
+Canned Cranberries,100,187
+Canned Crushed Pineapple,100,60
+Canned Mandarin Oranges,100,141
+Canned Mango,100,33
+Canned Peaches,100,53
+Canned Pears,100,68
+Canned Pineapple,100,86
+Cantaloupe,100,56
+Carob,100,188
+Casaba Melon,100,28
+Cempedak,100,95
+Chayote,100,19
+Cherimoya,100,78
+Cherries,100,64
+Clementine,100,49
+Cloudberry,100,51
+Coconut,100,384
+Concord Grape,100,86
+Cranberries,100,76
+Cranberries, dried,100,315
+Currant,100,40
+Custard Apple,100,101
+Cuties Mandarin Orange,100,367
+Date,100,294
+Dragon Fruit,100,60
+Dried Figs,100,270
+Dried Fruit,100,258
+Dried Prunes,100,250
+Durian,100,151
+Egg Fruit,100,139
+Elderberries,100,348
+Ensete,100,190
+Feijoa,100,61
+Fig,100,66
+Fresh Pineapple,100,58
+Frozen Berries,100,45
+Frozen Blueberries,100,48
+Frozen Mixed Berries,100,67
+Fruit Salad,100,63
+Fuji Apple,100,65
+Gac,100,40
+Galia Melon,100,56
+Goji Berry,100,325
+Golden Delicious Apple,100,52
+Golden Raisins,100,301
+Gooseberries,100,43
+Granny Smith,100,52
+Grape,100,72
+Grapefruit,100,47
+Green Apple,100,51
+Green Olives,100,141
+Green Seedless Grapes,100,80
+Greengage,100,41
+Guava,100,44
+Hass Avocado,100,393
+Honeyberry,100,53
+Honeycrisp Apple,100,60
+Honeydew,100,36
+Honeydew Melon,100,56
+Huckleberry,100,429
+Jackfruit,100,80
+Jambul,100,60
+Japanese Persimmon,100,70
+Japanese Plum,100,278
+Java Plum,100,465
+Jostaberry,100,47
+Jujube,100,115
+Kaffir Lime,100,70
+Kiwano Horned Melon,100,44
+Kiwi,100,61
+Kumquat,100,75
+Lemon,100,38
+Lemon Peel,100,88
+Lemonade,100,29
+Lime,100,48
+Loganberry,100,55
+Longan,100,74
+Loquat,100,47
+Lychee,100,78
+Mamey Sapote,100,124
+Mandarin Orange,100,53
+Mango,100,61
+Mangosteen,100,76
+Maracuya,100,66
+Maraschino Cherries,100,35
+Marionberry,100,64
+Medjool Dates,100,191
+Mela,100,40
+Melon,100,38
+Minneola,100,70
+Miracle Fruit,100,32
+Mixed Fruit,100,87
+Mixed Fruit Smoothie,100,55
+Mouse Melon,100,15
+Mulberries,100,47
+Muscadine Grapes,100,56
+Musk melon,100,56
+Nectarine,100,59
+Nopal,100,321
+Olive,100,150
+Orange,100,47
+Papaya,100,35
+Papaya Leaves,100,169
+Passion Fruit,100,66
+Pawpaw,100,80
+Peach,100,44
+Pear,100,57
+Persimmon,100,75
+Physalis,100,76
+Pinapple,100,58
+Pineapple Chunks,100,49
+Pineberry,100,29
+Pink Grapefruit,100,47
+Pink Lady,100,52
+Plantain fried,100,309
+Plantain,100,125
+Plum,100,48
+Poha,100,379
+Pom Potes (Materne),100,65
+Pomegranate,100,79
+Pomelo,100,47
+Prickly Pear,100,31
+Prunes,100,48
+Purple Mangosteen,100,76
+Quince,100,50
+Raisin,100,310
+Rambutan,100,69
+Rasberries,100,43
+Raspberries TK,100,45
+Red Delicious Apple,100,19
+Red Grapes,100,33
+Redcurrant,100,41
+Rhubarb,100,20
+Rose Apple,100,25
+Rose Hips,100,162
+Rowan,100,102
+Salak,100,78
+Salal Berry,100,63
+Sapodilla,100,31
+Satsuma,100,47
+Small Banana,100,89
+Sour Cherries,100,54
+Soursop,100,33
+Star Apple,100,67
+Star Fruit,100,30
+Strawberries,100,36
+Strawberry Guava,100,13
+Strawberry Preserves,100,70
+Surinam Cherry,100,404
+Tamarillo,100,61
+Tamarind,100,290
+Tangelo,100,224
+Tayberry,100,316
+Tomatillo,100,46
+Ugli Fruit,100,47
+Water Melon,100,38
+White Currant,100,51
+White Grapefruit,100,88
+White Sapote,100,106
+Winter melon,100,30
+Yellow Melon,100,30
+Yuzu,100,21
+Almond Milk, original,100,22
+Almond Milk, unsweetened,100,13
+Apple Butter,100,173
+Butter Oil,100,876
+Buttermilk,100,37
+Carvel, Strawberry,100,27
+Cheese Bread,100,237
+Cheese Sauce,100,86
+Cherry Yogurt,100,93
+Chocolate Milk,100,132
+Coconut Milk,100,10
+Coffee Creamer,100,206
+Condensed Milk,100,132
+Cream,100,308
+Creme Fraiche,100,281
+Dairy Milk McFlurry (McDonald's),100,212
+Goat Milk,100,67
+Hafermilch,100,40
+Heavy Cream,100,165
+Heavy Whipping Cream,100,340
+Human Milk,100,304
+Indian Buffalo Milk,100,97
+Kefir,100,65
+Lactose Free Milk,100,39
+Lassi,100,65
+Low-Fat Milk,100,48
+Magerquark,100,73
+Malted Milk,100,234
+Mango Lassi,100,82
+Mascarpone,100,393
+Milk,100,65
+Milk, 2% fat,100,395
+Milk, fat free,100,129
+Milkshake, Strawberry,100,165
+Peach Yogurt,100,118
+Powdered Milk,100,482
+Probiotic Yogurt,100,65
+Quark,100,160
+Rice Milk,100,53
+Semi Skimmed Milk,100,47
+Sheep Milk,100,94
+Skim Milk,100,35
+Sour Cream, fat free,100,300
+Soy Drink,100,29
+Soy Milk,100,36
+Sweetened Condensed Milk,100,321
+Vanilla Milkshake,100,78
+Whipped Cream,100,308
+Whole Milk,100,65
+Yakult,100,67
+Actimel (Danone),100,73
+Activia (Danone),100,74
+Activia Strawberry (Danone),100,88
+Ayran,100,35
+Blueberry Yogurt,100,67
+Fat Free Greek Yoghurt,100,80
+Fruit Yogurt,100,105
+Greek Yogurt,100,71
+Low Fat Yogurt,100,45
+Natural Yoghurt,100,69
+Plain Yogurt,100,106
+Skim Milk Yogurt,100,72
+Skyr Yogurt,100,318
+Sour Cream,100,196
+Sour Cream, light,100,119
+Strawberry Greek Yogurt,100,82
+Strawberry Yogurt,100,45
+Total 0% Greek Yogurt (Fage),100,54
+Triple Zero Greek Yogurt (Oikos),100,80
+Vanilla Yogurt,100,102
+Yogurt Parfait,100,84
+Yoplait Boston Cream Pie,100,45
+Yoplait Greek Blueberry,100,84
+Yoplait Greek Strawberry,100,68
+Yoplait Harvest Peach,100,53
+Yoplait Light Strawberry Yogurt,100,53
+Yoplait Mixed Berry,100,82
+Yoplait Strawberry,100,88
+Yoplait Strawberry Banana,100,38
+Yougurt,100,69
+American Cheese,100,500
+Asadero Cheese,100,356
+Asiago Cheese,100,464
+Babybel,100,293
+Blue Cheese,100,362
+Brick Cheese,100,526
+Brie,100,367
+Camembert,100,286
+Cheddar Cheese,100,397
+Cheese Fondue,100,274
+Cheese Slices,100,370
+Cheese Soup,100,78
+Cheese Spread,100,332
+Chihuahua Cheese,100,374
+Chive Cream Cheese,100,201
+Colby Jack Cheese,100,384
+Cottage Cheese,100,104
+Cream Cheese, fat free,100,105
+Curd,100,86
+Edam Cheese,100,357
+Emmental,100,381
+Feta Cheese,100,287
+Fol Epi,100,352
+Fontina,100,386
+Fontina Cheese,100,389
+Fresh Mozzarella,100,166
+Gjetost,100,466
+Goat Cheese,100,347
+Gorgonzola,100,360
+Gouda Cheese,100,368
+Grana Padano,100,398
+Grated Parmesan,100,398
+Gruyere Cheese,100,413
+Halloumi,100,381
+Havarti,100,371
+Jarlsberg,100,352
+Leerdammer Cheese,100,352
+Light Cheese,100,340
+Limburger Cheese,100,268
+Maasdam Cheese,100,349
+Manchego Cheese,100,74
+Mexican Cheese,100,900
+Mini Babybel Light,100,208
+Monterey,100,376
+Mozzarella Cheese,100,265
+Muenster Cheese,100,198
+Parmesan Cheese,100,399
+Parmesan Cheese, grated,100,420
+Pecorino,100,423
+Pepper Jack Cheese,100,373
+Pimento Cheese,100,375
+Port Salut Cheese,100,352
+Porter,100,383
+Provolone cheese,100,351
+Raclette Cheese,100,346
+Romano Cheese,100,393
+Roquefort Cheese,100,363
+Sheep Cheese,100,287
+Shredded Cheese,100,496
+Shredded Sharp Cheddar Cheese,100,897
+Smoked Cheese,100,395
+Soft Cheese,100,278
+Soy CheeseÂ,100,198
+Stilton Cheese,100,66
+String Cheese,100,320
+Vegan Cheese,100,287
+White Cheddar,100,1090
+White Cheese,100,297
+Chocolate Philadelphia (MondelÄz),100,287
+Cottage Cheese,100,104
+Cottage Cheese, low fat,100,250
+Cottage Cheese, nonfat,100,91
+Cream Cheese,100,341
+Cream Cheese, low fat,100,225
+Labneh,100,179
+Neufchatel,100,235
+Paneer,100,321
+Philadelphia Cream Cheese (MondelÄz),100,228
+Queso Fresco,100,259
+Ricotta Cheese,100,176
+Salmon Cream Cheese,100,300
+Alligator,100,97
+Antelope Meat,100,114
+Bacon Rashers,100,371
+Bacon, cooked,100,158
+Bear Meat,100,161
+Beaver Meat,100,146
+Beef,100,156
+Beef Bologna,100,617
+Beef Bottom Round Steak cooked,100,594
+Beef Brain,100,220
+Beef Flank Steak cooked,100,114
+Beef Heart, cooked,100,337
+Beef Heart, raw,100,105
+Beef Jerky,100,269
+Beef Kidney,100,48
+Beef Liver, cooked,100,245
+Beef Liver, raw,100,131
+Beef Lung,100,92
+Beef Neck,100,81
+Beef Pancreas,100,235
+Beef Patty,100,56
+Beef Round Steak, raw,100,206
+Beef Sirloin,100,360
+Beef Stew,100,390
+Beef Suet,100,343
+Beef Thymus,100,85
+Beef Tongue,100,221
+Beef Top Sirloin Steak, cooked,100,131
+Beef Tripe,100,85
+Boar,100,162
+Brawn,100,140
+Buffalo Wings,100,312
+Buffalo,100,99
+Caribou,100,166
+Chicken Breast fillet,100,118
+Chicken Leg, cooked,100,218
+Chicken Leg, fried,100,225
+Chicken Liver,100,136
+Chicken Strips,100,271
+Chicken Thigh, cooked,100,141
+Chicken Thigh, raw,100,173
+Chicken Thigh, roasted,100,174
+Chicken thighs, grilled,100,164
+Corned beef,100,141
+Dove,100,391
+Dove Meat, cooked,100,228
+Duck,100,227
+Duck Breast,100,209
+Duck liver,100,130
+Emu,100,103
+Goat Meat, cooked,100,199
+Goat Meat, raw,100,149
+Goose,100,342
+Goose Liver,100,131
+Ground Beef,100,208
+Guinea Fowl,100,146
+Horse Meat, cooked,100,148
+Hot Dog Sausage,100,193
+Hot Wings,100,243
+Hotdog with Chili,100,260
+Lamb,100,117
+Lamb Brain, cooked,100,145
+Lamb Chops,100,298
+Lamb Heart,100,105
+Lamb Kidney,100,84
+Lamb Leg, cooked,100,225
+Lamb Liver, cooked,100,220
+Lamb Lungs, cooked,100,113
+Lamb Meat,100,117
+Lamb Meat, cooked,100,185
+Lamb Tongue, cooked,100,272
+Liver,100,133
+Liver Cheese,100,151
+Meatball,100,214
+Mettwurst,100,297
+Moose,100,102
+Mutton,100,183
+Peking Duck,100,165
+Pigeon,100,538
+Pork Liver,100,129
+Pork Loin, raw,100,106
+Pork Skin,100,621
+Rabbit,100,152
+Rabbit Meat, cooked,100,173
+Racoon,100,255
+Reindeer Meat,100,97
+Rhea,100,220
+Rib Eye Steak,100,323
+Rib Eye Steak, grilled,100,216
+Round Steak,100,161
+Rump Steak,100,214
+Skirt Steak,100,121
+Spam,100,476
+Spare Ribs,100,320
+Squirrel,100,120
+Standing Rib Roast,100,272
+Steak Sandwich,100,104
+Tongue,100,326
+Turkey Pot Pie,100,231
+Turkey Salami,100,59
+Veal Heart,100,110
+Veal Tongue,100,180
+Vegan Meat,100,255
+Veggie Patty,100,198
+Venison, Rabbit,100,108
+Water Buffalo Meat, cooked,100,32
+Wild Boar Meat,100,162
+Wild Duck,100,206
+Beef Bologna,100,617
+Beef Bottom Round Steak cooked,100,594
+Beef Brain,100,220
+Beef Brisket,100,264
+Beef Empanada,100,93
+Beef Fillet,100,121
+Beef Flank Steak cooked,100,114
+Beef Heart, cooked,100,337
+Beef Heart, raw,100,105
+Beef Kidney,100,48
+Beef Liver, raw,100,131
+Beef Lung,100,92
+Beef Neck,100,81
+Beef Noodle Soup,100,70
+Beef Pancreas,100,235
+Beef Patty,100,56
+Beef Pizza,100,348
+Beef Ribs,100,167
+Beef Roast,100,216
+Beef Round Steak, raw,100,206
+Beef Salami,100,380
+Beef Sirloin,100,360
+Beef Stew,100,390
+Beef Stew Meat,100,41
+Beef Stick,100,583
+Beef Suet,100,343
+Beef Tallow,100,902
+Beef Tenderloin Steak cooked,100,273
+Beef Thymus,100,85
+Beef Tongue,100,221
+Beef Tongue, cooked,100,242
+Beef Top Sirloin Steak, cooked,100,131
+Beef Tripe,100,85
+Bison,100,146
+Bison Meat,100,223
+Bison Sirloin,100,113
+Calf Brain,100,78
+Calf Liver,100,113
+Chuck Steak,100,227
+Corned Beef Hash,100,164
+Corned Beef, canned,100,250
+Cubed Steak,100,73
+Filet Mignon,100,98
+Flank Steak,100,165
+Flat Iron Steak,100,182
+Ground Beef,100,208
+Ground Beef, 85% lean,100,43
+Ground Beef, 90% lean,100,41
+Ground Chuck,100,250
+Ground Round,100,125
+Jerky,100,457
+New York Strip Steak,100,39
+Philly Cheese Steak,100,99
+Porterhouse Steak,100,223
+Roast Beef,100,130
+Round Steak,100,161
+Rump Steak,100,214
+Schnitzel,100,121
+Sirloin Steak,100,182
+Skirt Steak,100,121
+Standing Rib Roast,100,272
+Strip Steak,100,117
+Tongue,100,326
+Veal,100,125
+Veal Bratwurst,100,290
+Veal Heart,100,110
+Veal Kidney,100,99
+Veal Meat, cooked,100,229
+Veal Meat, raw,100,125
+Veal Shank,100,107
+Vegan steak,100,268
+Bacon,100,270
+Baked Ham,100,135
+Chitterlings,100,233
+Cumberland Sausage,100,325
+Grilled Pork Chop,100,150
+Ground Pork,100,279
+Hog Maws,100,250
+Knackwurst,100,261
+Pork,100,279
+Pork Bacon,100,810
+Pork Belly raw,100,261
+Pork Blade Steak,100,133
+Pork Chop,100,133
+Pork Country Style Ribs,100,257
+Pork Cutlet,100,106
+Pork Ears, cooked,100,176
+Pork Egg Roll,100,36
+Pork Leg,100,179
+Pork Liver,100,129
+Pork Loin cooked,100,143
+Pork Loin, raw,100,106
+Pork Ribs,100,189
+Pork Roast,100,296
+Pork Roll,100,106
+Pork Sausage,100,293
+Pork Shank,100,179
+Pork Shoulder Blade,100,515
+Pork Shoulder cooked,100,219
+Pork Shoulder, raw,100,219
+Pork Skin,100,621
+Pork Spare Ribs,100,17
+Pork Steaks,100,106
+Pork Stomach,100,128
+Pork Tamale,100,442
+Pork Tenderloin, cooked,100,61
+Pork Tongue,100,160
+Salt Pork,100,184
+Sausage Patty,100,172
+Slice of Ham,100,97
+Smoked Sausage,100,309
+Spare Ribs,100,320
+Baked Chicken,100,117
+Boiled Chicken,100,118
+Capon,100,234
+Chicken,100,166
+Chicken And Rice Casserole,100,56
+Chicken Biryani,100,253
+Chicken Breast,100,101
+Chicken Breast fillet,100,118
+Chicken Breast, baked,100,128
+Chicken Breast, cooked,100,99
+Chicken Breast, raw,100,101
+Chicken Breast, roasted,100,128
+Chicken Drumstick, cooked,100,149
+Chicken Fried Steak,100,98
+Chicken Giblets,100,229
+Chicken Heart,100,47
+Chicken Leg, cooked,100,218
+Chicken Leg, fried,100,225
+Chicken Liver,100,136
+Chicken Liver Pate,100,201
+Chicken Liver, cooked,100,176
+Chicken Meat,100,166
+Chicken Neck cooked,100,212
+Chicken Nuggets,100,252
+Chicken Patty,100,290
+Chicken Sausage,100,199
+Chicken Stomach,100,130
+Chicken Strips,100,271
+Chicken Tenders,100,157
+Chicken Thigh No Skin,100,175
+Chicken Thigh, cooked,100,141
+Chicken Thigh, raw,100,173
+Chicken Thigh, roasted,100,174
+Chicken Wing, raw,100,387
+Chicken thighs, grilled,100,164
+Cornish Hens,100,200
+Deviled Eggs,100,54
+Drumstick,100,149
+Goose Meat,100,130
+Grilled Cheese,100,150
+Grilled Chicken,100,151
+Grilled Chicken Breast,100,107
+Ground Chicken cooked,100,543
+Ground Turkey, cooked,100,46
+Guinea Fowl,100,146
+McDonald's Mighty Wings,100,224
+Orange Chicken,100,262
+Ostrich Meat,100,282
+Oven Roasted Turkey Breast,100,140
+Pechuga de Pollo,100,130
+Pheasant Breast,100,133
+Pheasant,100,154
+Quail,100,110
+Rotisserie Chicken,100,188
+Skinless Chicken Breast,100,101
+Sliced Turkey Breast,100,105
+Tandoori Chicken,100,14
+Turkey,100,157
+Turkey Bacon,100,472
+Turkey Bologna,100,88
+Turkey Breast, raw,100,105
+Turkey Breast, roasted,100,147
+Turkey Cutlet,100,262
+Turkey Drumsticks,100,118
+Turkey Egg,100,171
+Turkey Fat,100,361
+Turkey Giblets,100,124
+Turkey Heart,100,117
+Turkey Legs,100,144
+Turkey Liver,100,419
+Turkey Pastrami,100,143
+Turkey Sausage,100,199
+Turkey Steak,100,105
+Turkey Wings,100,196
+Turkey and Gravy,100,393
+Vegan Chicken,100,159
+Andouille,100,214
+Beef Salami,100,380
+Black Pudding,100,244
+Blood Sausage,100,368
+Bockwurst,100,275
+Boiled Ham,100,128
+Bologna,100,299
+Boudin,100,129
+Bratwurst,100,292
+Breakfast Sausage Links,100,325
+Capicola,100,110
+Chicken Bratwurst,100,326
+Chicken Frankfurter,100,133
+Chicken Spread,100,28
+Chopped Ham,100,287
+Chorizo,100,344
+Cooked Ham,100,128
+Frankfurter,100,249
+Garlic Sausage,100,337
+Ham,100,87
+Ham Sausage,100,311
+Ham Slice,100,43
+Ham Steak,100,410
+Honey Ham,100,122
+Hot Sausage,100,202
+Italian Salami,100,348
+Italian Sausage,100,293
+Kielbasa,100,325
+Knackwurst,100,261
+Landjaeger,100,481
+Linguica,100,286
+Link Sausage,100,333
+Liverwurst,100,337
+Mettwurst,100,297
+Mortadella,100,317
+Parma Ham,100,307
+Pastrami,100,147
+Polish Sausage,100,564
+Pork Bratwurst,100,293
+Pork Salami,100,902
+Prosciutto,100,87
+Prosciutto crudo,100,224
+Ring Bologna,100,304
+Salami,100,380
+Sausage,100,395
+Sausage Roll,100,192
+Serrano Ham,100,232
+Smoked Ham,100,122
+Smoked Turkey Breast,100,105
+Summer Sausage,100,124
+Turkey Ham,100,83
+Weisswurst,100,301
+Basmati Rice,100,352
+Black Rice,100,362
+Brown Rice Cake,100,387
+Brown Rice, cooked,100,147
+Brown Rice, raw,100,367
+Fried Rice,100,125
+Idly,100,350
+Jasmine Rice,100,356
+Nasi Putih,100,125
+Puffed Rice,100,389
+Rice Bran Oil,100,196
+Rice Cake,100,389
+Rice Crisps,100,113
+Rice Noodles, cooked,100,260
+Shirataki rice,100,9
+Spanish Rice,100,333
+White Rice, cooked,100,516
+White Rice, raw,100,350
+White Rice, steamed,100,30
+Wild Rice, cooked,100,137
+Apple Croissant,100,254
+Arepa,100,267
+Bagel,100,230
+Baguette,100,287
+Banana Bread,100,270
+Banana Nut Bread,100,364
+Beer Bread,100,346
+Biscuit, plain or buttermilk,100,353
+Black Bread,100,236
+Bran Muffins,100,270
+Bread Crumbs,100,364
+Bread Roll,100,279
+Bread and Cheese,100,237
+Bread with Seeds,100,279
+Breadsticks,100,276
+Breakfast Biscuits,100,426
+Brioche,100,272
+Brown Bread,100,274
+Brown Toast Bread,100,306
+Bun,100,250
+Butter Croissant,100,365
+Butter Toast,100,265
+Buttermilk Pancakes,100,227
+Buttermilk Waffle,100,273
+Carb Balance Tortilla,100,286
+Carob Flour,100,302
+Challah,100,287
+Chapati,100,297
+Cheese Bread,100,237
+Cheese Croissant,100,407
+Cheese Pastry,100,374
+Cheese Puffs,100,500
+Cheese Stick,100,382
+Chocolate Croissant,100,422
+Chocolate Donut,100,437
+Ciabatta Bread,100,278
+Cinnamon Bun,100,462
+Cinnamon Raisin Bagel,100,274
+Corn tortilla,100,200
+Cornbread,100,243
+Cracked Wheat Bread,100,260
+Cracker Meal,100,383
+Cream Puff,100,301
+Croissant,100,516
+Croutons,100,525
+Crumpet,100,227
+Dinner Roll,100,273
+Dosa,100,210
+Dove,100,391
+Eclair,100,457
+Egg Bagel,100,278
+Egg Bread,100,287
+English Muffin with Butter,100,300
+English Muffin,100,260
+English Muffin, whole-wheat,100,203
+Everything Bagel,100,345
+Fairy Cakes,100,440
+Finn Crisp,100,350
+Flapjack,100,196
+Flatbread,100,246
+Focaccia,100,296
+French Bread Baguette,100,228
+French Cruller Donut,100,423
+French Roll,100,277
+Frybread,100,309
+Garlic Baguette,100,305
+Graham Cracker Pie Crust,100,501
+Ham Sandwich,100,255
+Ham and Cheese Sandwich,100,57
+Hamburger Bun,100,293
+Honey Wheat Bread,100,234
+Hot Dog bun,100,469
+Italian Bread,100,252
+Matzo Bread,100,400
+Matzo Crackers,100,223
+Melba Toast Crackers,100,140
+Monkey Bread,100,336
+Multi Grain Bread,100,312
+Naan,100,291
+Oat Bran Bagel,100,255
+Oat Bran Bread,100,299
+Oatmeal Bread,100,244
+Olive Loaf,100,262
+Paczki,100,389
+Pain,100,343
+Pain Au Chocolat,100,162
+Pan de Sal,100,74
+Paratha,100,326
+Pita Bread,100,240
+Pita Bread, whole wheat,100,288
+Pizza Rolls,100,201
+Plain Bagel,100,36
+Plain Paratha,100,76
+Potato Bread,100,245
+Pretzel Roll,100,260
+Pretzel,100,305
+Protein Bread,100,242
+Pulled Pork Sandwich,100,188
+Pumpernickel Bread,100,210
+Pumpkin Bread,100,302
+Puri,100,172
+Roll,100,282
+Roti,100,297
+Rusks,100,381
+Rye Bread,100,276
+Saltine Crackers,100,382
+Sandwich Bread,100,40
+Scone,100,374
+Shortcrust Pastry,100,435
+Soda Bread,100,290
+Soft Pretzels,100,305
+Sourdough Bread,100,233
+Sweet Rolls,100,150
+Toast,100,264
+Tortilla,100,218
+Tortilla wrap,100,299
+Viena bread,100,263
+Wheat Bran Bread,100,335
+Wheat Bread,100,246
+Wheat Germ Bread,100,254
+Wheat Paratha,100,17
+Wheat Roti,100,299
+White Bread,100,246
+White Bread, toasted,100,230
+Whole Wheat Bread,100,216
+Whole Wheat Bread toasted,100,11
+Wholemeal Toast,100,210
+Wholemeal bread,100,212
+Wonton Wrappers,100,165
+Yorkshire Pudding,100,240
+Capellini,100,339
+Cappelletti,100,93
+Cellophane Noodles,100,351
+Cheese Tortellini,100,393
+Chinese Noodles,100,351
+Egg Noodles,100,384
+Egg Noodles, cooked,100,138
+Farfalle,100,359
+Fettuccine,100,359
+Fusilli,100,354
+Homemade Lasagna,100,250
+Instant Noodles,100,257
+Lasagne Sheets,100,356
+Linguine,100,359
+Macaroni,100,359
+Macaroni, cooked,100,128
+Mostaccioli,100,154
+Orecchiette,100,273
+Orzo,100,362
+Pasta,100,365
+Pasta, cooked,100,141
+Penne Pasta,100,359
+Penne Rigate,100,352
+Pierogi,100,167
+Ravioli,100,242
+Rigatoni,100,353
+Rotini,100,371
+Shirataki noodles,100,541
+Soy Noodles,100,348
+Spagetti,100,353
+Spaghetti, cooked,100,131
+Spinach Tortellini,100,301
+SpÃ¤tzle,100,218
+Tagliatelle,100,346
+Tortellini,100,273
+Vermicelli,100,331
+Whole Grain Noodles,100,342
+Whole Grain Spaghetti,100,337
+Whole Wheat Spaghetti cooked,100,148
+Yuba,100,176
+Ziti,100,143
+Acorn Flour,100,501
+Agar,100,172
+All Purpose Flour,100,366
+Almond Extract,100,0
+Almond Paste,100,462
+Amaranth,100,400
+Arrowroot Flour,100,357
+Baker's Yeast,100,96
+Baking Chocolate,100,472
+Baking Powder,100,100
+Barley,100,347
+Barley Flour,100,341
+Barley Groats,100,333
+Barley, cooked,100,120
+Bran Flakes,100,359
+Bread Flour,100,367
+Brown sugar,100,380
+Buckwheat Flour,100,325
+Bulgur, cooked,100,128
+Cake Flour,100,362
+Candied Orange Peel,100,300
+Chickpea Flour,100,350
+Chocolate Chips,100,510
+Chocolate Frosting,100,70
+Chocolate Sprinkles,100,500
+Chocolate Syrup,100,175
+Cocoa Powder,100,393
+Coconut Flakes,100,679
+Corn Flour,100,344
+Corn Syrup,100,172
+Corn,100,341
+Cornmeal,100,344
+Cornstarch,100,348
+Couscous,100,349
+Cream of Tartar,100,400
+Dextrose,100,375
+Duck Egg,100,185
+Durum Wheat Semolina,100,357
+Egg Substitute, powder,100,444
+Egg White,100,48
+Egg White, boiled,100,99
+Egg Yolk, raw,100,353
+Egg,100,137
+Egg, hard boiled,100,137
+Egg, medium,100,143
+Eggs, large,100,203
+Flour,100,344
+Flour Tortilla,100,84
+Fondant,100,352
+Freekeh,100,352
+Fructose,100,399
+Gelatin,100,338
+Glucose,100,399
+Glucose Syrup,100,433
+Gluten,100,370
+Goose Egg,100,180
+Granulated Sugar,100,399
+Guar,100,186
+Half and Half,100,131
+Honey,100,302
+Iodized Salt,100,0
+Jaggery,100,186
+Kamut,100,365
+Maca Powder,100,319
+Malt Syrup,100,318
+Maltitol,100,241
+Maltodextrin,100,360
+Maltose,100,399
+Marzipan,100,498
+Millet,100,362
+Millet Flour,100,342
+Millet, cooked,100,16
+Molasses,100,400
+Oat Bran,100,358
+Oatmeal,100,128
+Oats,100,349
+Orange Peel,100,32
+Pearl Barley,100,347
+Pectin,100,11
+Peppermint Extract,100,0
+Plantain flower,100,336
+Polenta,100,200
+Potato Starch,100,336
+Powder,100,81
+Powdered Sugar,100,399
+Puff Pastry,100,425
+Quail Egg,100,137
+Quinoa, cooked,100,103
+Quinoa, dry,100,366
+Rolled Oats,100,370
+Rye,100,323
+Rye Flour,100,334
+Saccharin Sweetener,100,242
+Sago,100,336
+Salt,100,0
+Semolina,100,338
+Semolina Flour,100,346
+Semolina Pudding,100,422
+Sesame Flour,100,526
+Shredded Coconut,100,679
+Soda,100,0
+Sorbitol,100,238
+Sorghum Flour,100,486
+Sorghum Syrup,100,365
+Soy Flour,100,398
+Spelt,100,352
+Splenda Sweetener,100,336
+Starch,100,348
+Stevia,100,378
+Sucrose,100,399
+Sugar,100,399
+Sunflower Seed Flour,100,399
+Sweetener,100,242
+Tapioca Pearls,100,367
+Tortilla Flour,100,192
+Triticale,100,26
+Turbinado Sugar,100,398
+Vanilla,100,316
+Vanilla Bean,100,317
+Vanilla Extract,100,296
+Vanilla Frosting,100,379
+Vanilla Sugar,100,399
+Wheat Bran,100,270
+Wheat Germ,100,373
+Wheat Gluten,100,390
+Wheat Semolina,100,335
+Wheat Starch,100,350
+Wheatgrass,100,284
+White Sugar,100,399
+White Wheat,100,205
+Whole Grain,100,327
+Whole Grain Wheat,100,327
+Whole Grain Wheat Flour,100,325
+Whole Wheat Flour,100,325
+Whole Wheat, cooked,100,47
+Xylitol,100,240
+All Bran,100,259
+Avena,100,310
+Bran Flakes,100,359
+Buckwheat,100,346
+Buckwheat, cooked,100,124
+Cap'n Crunch (Quaker Oats),100,394
+Cereal,100,363
+Cheerios (NestlÃ©),100,379
+Chex,100,375
+Chocolate Cheerios,100,149
+Cinnamon Toast Crunch,100,343
+Coco Pops (Kellogg's),100,389
+Cocoa Krispies (Kellogg's),100,389
+Cocoa Pebbles (Post),100,397
+Cocoa Puffs (General Mills),100,383
+Cookie Crisp (NestlÃ©),100,388
+Corn Flakes,100,363
+Corn Pops,100,174
+Count Chocula,100,383
+Cracklin Oat Bran (Kellogg's),100,395
+Cream of Wheat,100,366
+Crunchy Nut Cornflakes (Kelloggs),100,388
+Dippin Dots,100,122
+Fiber One,100,207
+Froot Loops (Kellogg's),100,384
+Frosted Cheerios,100,376
+Frosted Flakes (Kellogg's),100,586
+Fruity Pebbles (Post),100,402
+Golden Grahams,100,376
+Granola,100,507
+Granola Bites,100,280
+Grape Nuts,100,691
+Honey Nut Cheerios (General Mills),100,324
+Honey Smacks (Kellogg's),100,97
+Instant Oatmeal Original,100,371
+Just Right (Kellogg's),100,371
+Kashi,100,311
+Kix,100,357
+Krave,100,381
+Life Cereal (Quaker Oats),100,374
+Lucky Charms,100,390
+Malt O Meal (Post),100,106
+Mini Wheats,100,365
+Muesli,100,363
+Multigrain Cheerios (General Mills),100,143
+Oat Bran,100,358
+Oatibix (Weetabix),100,390
+Oatmeal,100,128
+Oats 'n Honey Granola Bar (Nature Valley),100,452
+Old Fashioned Oatmeal,100,1580
+Peanut Butter Toast Crunch,100,62
+Porridge,100,380
+Post Raisin Bran,100,114
+Post Shredded Wheat,100,365
+Puffed Wheat,100,366
+Quaker Grits,100,460
+Quaker Oatmeal,100,171
+Quaker Oatmeal Squares,100,425
+Raisin Bran,100,195
+Raisin Bran Crunch,100,63
+Ready Brek,100,280
+Rice Chex,100,366
+Rice Krispies (Kellogg's),100,383
+Rolled Oats,100,370
+Rye Bran,100,286
+Scooters,100,387
+Shreddies (NestlÃ©),100,364
+Smart Start,100,251
+Smores,100,388
+Special K (Kellogg's),100,385
+Special K Chocolatey Delight (Kellogg's),100,167
+Special K Protein Plus (Kellogg's),100,397
+Special K Red Berries (Kellogg's),100,345
+Spelt Bran,100,280
+Sugar Puffs,100,395
+Trix (General Mills),100,116
+Weetabix,100,371
+Weetos (Weetabix),100,374
+Wheat Bran,100,270
+Wheat Germ toasted,100,382
+Wheaties (General Mills),100,143
+Abalone,100,209
+Anchovis,100,101
+Baked Mackerel,100,205
+Bass,100,98
+Bluefish,100,124
+Bream,100,172
+Butterfish,100,114
+Calamari,100,81
+Carp,100,134
+Catfish, fried,100,184
+Clam,100,884
+Cod,100,77
+Crawfish,100,81
+Eel,100,281
+Fish Fillet, fried,100,219
+Fish Fingers,100,256
+Flounder,100,72
+Grilled Shrimp,100,105
+Grouper,100,98
+Haddock,100,77
+Hake,100,94
+Halibut,100,95
+Herring,100,233
+Herring, pickled,100,262
+Hijiki,100,200
+Hoki,100,108
+Kipper,100,164
+Ling,100,87
+Lobster,100,83
+Lobster Bisque Soup,100,135
+Mackerel,100,182
+Milkfish,100,148
+Mullet, cooked,100,368
+Mussel,100,69
+Octopus,100,81
+Oyster, raw,100,66
+Pan Fried Fish,100,213
+Pickerel,100,387
+Pike,100,111
+Pink Salmon, canned,100,27
+Pollack,100,283
+Red Snapper,100,128
+Redfish,100,224
+Rollmops,100,179
+Salmon,100,180
+Salmon Sashimi,100,180
+Salmon, baked,100,112
+Salmon, canned,100,78
+Salmon, cooked,100,185
+Salmon, raw,100,180
+Sardines,100,118
+Sardines in Tomato Sauce canned,100,114
+Scallop,100,73
+Scampi,100,315
+Sea Bass,100,105
+Sea Grape,100,66
+Shad,100,197
+Shark,100,163
+Shells,100,140
+Shrimp,100,91
+Shrimp, cooked,100,99
+Shrimp, fried,100,105
+Smelt,100,46
+Smoked Salmon,100,190
+Sole,100,82
+Squid,100,81
+Sturgeon,100,236
+Surimi,100,114
+Swordfish,100,117
+Tilapia cooked,100,128
+Triggerfish,100,93
+Trout,100,103
+Tuna,100,226
+Tuna, canned,100,98
+Tuna, canned in oil,100,353
+Turbot,100,82
+White Fish,100,184
+Whitefish,100,117
+Whiting,100,74
+Wild Pink Salmon,100,32
+Zander,100,84
+Aloo Ki Sabzi,100,223
+Aloo Paratha,100,230
+Alphabet Soup,100,30
+Apple Crumble,100,316
+Arhar Dal,100,100
+Avocado Toast,100,250
+Bacon and Eggs,100,251
+Baked Potato with Sour Cream,100,130
+Banana Oatmeal Pancake,100,202
+Bean Burrito,100,221
+Bean with Bacon Soup,100,117
+Beef Broth Soup,100,8
+Beef Noodle Soup,100,70
+Beef Stew Meat,100,41
+Beef Stock,100,8
+Beef stew,100,74
+Biryani,100,108
+Black Bean Soup,100,103
+Blueberry Pancakes,100,195
+Boiled Egg,100,137
+Broccoli Cheese Soup,100,69
+Broccoli Soup,100,44
+Burrito,100,239
+Butter Chicken,100,168
+Cabbage Soup,100,36
+Caesar Salad,100,187
+Caesar Salad with Crispy Chicken McDonald's,100,60
+Caesar Salad with Grilled Chicken,100,124
+Cannelloni,100,143
+Carrot Ginger Soup,100,79
+Carrot Soup,100,47
+Chana Daal,100,380
+Cheese Fondue,100,274
+Cheese Lasagna,100,130
+Cheese Soup,100,78
+Chicken And Rice Casserole,100,56
+Chicken Biryani,100,253
+Chicken Bouillon,100,224
+Chicken Broth,100,148
+Chicken Caesar Salad,100,184
+Chicken Chow Mein,100,179
+Chicken Curry,100,92
+Chicken Egg Roll,100,19
+Chicken Fajita,100,161
+Chicken Fried Rice,100,173
+Chicken Fried Steak,100,98
+Chicken Gizzards,100,154
+Chicken Marsala,100,101
+Chicken Mushroom Soup,100,54
+Chicken Noodle Soup,100,114
+Chicken Parmesan,100,718
+Chicken Pizziola,100,114
+Chicken Pot Pie,100,161
+Chicken Rice Soup,100,53
+Chicken Salad,100,187
+Chicken Soup,100,246
+Chicken Stock,100,500
+Chicken Tikka Masala,100,190
+Chicken Tortilla Wrap,100,279
+Chicken Vegetable Soup,100,33
+Chilli con Carne,100,100
+Chimichanga,100,246
+Chip Shop Chips,100,214
+Chitterlings,100,233
+Chop suey,100,129
+Chow Mein Noodles,100,471
+Clam Chowder Soup,100,79
+Cobb Salad,100,92
+Corn & Rice,100,113
+Corn Tamale,100,186
+Corned Beef Hash with Potatoes,100,164
+Cottage Pie,100,548
+Crab Cake,100,205
+Crab Soup,100,51
+Cream of Asparagus Soup,100,381
+Cream of Broccoli Soup,100,69
+Cream of Celery Soup,100,72
+Cream of Chicken Soup,100,90
+Cream of Mushroom Soup,100,383
+Cream of Potato Soup,100,74
+Creamy Chicken Noodle Soup,100,92
+Daal chawal,100,110
+Dal,100,131
+Dim Sum,100,41
+Dosa, plain,100,210
+Egg Drop Soup,100,27
+Egg Fried Rice,100,207
+Egg Omlette,100,154
+Egg, fried,100,196
+Egg, over easy,100,143
+Egg, sunny side up,100,143
+Eggy Bread,100,272
+Empanada,100,335
+Enchiladas,100,273
+Escarole Soup,100,30
+Fajita,100,165
+Falafel,100,350
+Fish Broth,100,39
+Fish Curry,100,92
+Fish Stock,100,38
+Fish and Chips,100,214
+French Onion Soup,100,153
+French Toast,100,208
+Fried Egg,100,206
+Gazpacho Soup,100,50
+General Tso's Chicken,100,295
+Golden Mushroom Soup,100,58
+Goulash,100,90
+Green Pea Soup,100,125
+Hash Brown Potato,100,196
+Healthy Choice, Chicken and Rice Soup,100,37
+Hog Maws,100,250
+Homemade Idli,100,160
+Homemade Lasagna,100,250
+Hot & Sour Soup,100,257
+Indian chicken curry,100,106
+Jambalaya,100,124
+Khichdi,100,117
+King Cake,100,241
+Kung Pao Chicken,100,129
+Lasagna,100,171
+Lebanon Bologna,100,172
+Lemon Chicken,100,129
+Lentil Soup,100,25
+Lentil Soup with Ham,100,56
+Liver pate,100,317
+Lobster Bisque Soup,100,135
+Mac and Cheese,100,502
+Manicotti,100,139
+Meat Pie,100,204
+Meatball,100,214
+Meatball Soup,100,108
+Meatloaf,100,165
+Mince Pie,100,289
+Minestrone Soup,100,45
+Miso Soup,100,136
+Moong Masoor Dal,100,179
+Mushroom Barley Soup,100,54
+Mushroom Soup,100,88
+Mutton Curry,100,94
+Noodle Soup,100,100
+Omelet,100,387
+Onion Soup,100,16
+Orange Chicken,100,262
+Oxtail Soup,100,84
+Pad Thai,100,100
+Paella,100,120
+Pasta Bolognese,100,146
+Pasta Pesto,100,314
+Pasta with Tomato Sauce,100,341
+Pide,100,273
+Poached Egg,100,137
+Potato Salad,100,105
+Potato Soup,100,92
+Potatoes au Gratin,100,113
+Pumpkin Cream,100,559
+Pupusas Con Frijoles,100,350
+Rajma,100,143
+Ramen,100,62
+Roast Dinner,100,125
+Sabji,100,96
+Sambar,100,287
+Samosa,100,112
+Sandwich,100,225
+Scotch Broth,100,84
+Scrambled Egg White,100,2
+Scrambled Eggs,100,155
+Scrapple,100,227
+Shepherds Pie,100,94
+Shrimp Cocktail,100,122
+SoufflÃ©,100,449
+Spaghetti with Meat Sauce,100,120
+Spaghetti with Meatballs,100,152
+Spicy Tuna Roll,100,107
+Spinach Souffle,100,342
+Split Pea Soup with Ham,100,77
+Split Pea Soup,100,76
+Spring Roll,100,212
+Squash,100,191
+Stew Beef,100,99
+Stir Fried Vegetables,100,138
+Succotash,100,439
+Sweet & Sour Chicken,100,250
+Taco,100,206
+Tandoori Chicken,100,14
+Tarte FlambÃ©e,100,183
+Thai Soup,100,94
+Tom Kha Gai,100,94
+Tomato Bisque Soup,100,66
+Tomato Rice Soup,100,80
+Tomato Vegetable Soup,100,33
+Tomatosoup,100,36
+Tripe Soup,100,48
+Tuna Salad,100,73
+Turkey Noodle Soup,100,61
+Turkey Pot Pie,100,231
+Turkey Roll,100,188
+Turkey Soup,100,57
+Turkey Vegetable Soup,100,48
+Vegetable Beef Soup,100,48
+Vegetable Chicken Soup,100,33
+Vegetable Egg Roll,100,257
+Vegetable Lasagna,100,119
+Vegetable Soup,100,26
+Wonton Soup,100,32
+Arby's Grand Turkey Club,100,210
+Arby's Reuben,100,208
+Arby's Roast Beef Classic,100,227
+Arby's Roast Beef Max,100,206
+BBQ Rib,100,302
+BLT,100,205
+Bean Burrito,100,221
+Beef Empanada,100,93
+Beef Pizza,100,348
+Big Mac (McDonald's),100,259
+Burger,100,297
+Burger King Angry Whopper,100,270
+Burger King Double Whopper, with cheese,100,266
+Burger King Original Chicken Sandwich,100,286
+Burger King Premium Alaskan Fish Sandwich,100,260
+Burger King Triple Whopper,100,258
+Burger King Whoopper,100,233
+Burger King Whopper, with cheese,100,250
+Burger Patty,100,212
+Calabresa Pizza,100,222
+Cheese Quesadilla,100,394
+Cheese Sandwich,100,285
+Cheeseburger,100,281
+Chicken Box,100,235
+Chicken McNuggets (McDonald's),100,252
+Chicken Nuggets,100,252
+Chicken Sandwich,100,249
+Chicken Sandwich with Cheese,100,134
+Chicken Tenders,100,157
+Chicken Teriyaki Sandwich,100,486
+Chicken Wing, fried,100,178
+Chimichanga,100,246
+Chinese Egg Roll,100,269
+Corn Dog,100,250
+Crispy Chicken Sandwich,100,276
+Crispy Chicken Strips,100,214
+Crispy Chicken Thigh Kentucky Fried Chicken (KFC),100,309
+Double Cheeseburger,100,269
+Double Hamburger,100,252
+Double Whopper,100,252
+Double Whopper with Cheese,100,266
+Dumplings,100,358
+Egg McMuffin (McDonald's),100,256
+Egg Roll,100,307
+Egg Sandwich,100,298
+Egg White Delight,100,52
+Fish Sandwich,100,194
+French Fries (Burger King),100,249
+French Fries (McDonald's),100,289
+French Fries,100,75
+French Fries, deep-fried,100,129
+French Toast Sticks,100,340
+Goat Cheese Pizza,100,42
+Grilled Chicken Sandwich,100,182
+Hamburger,100,297
+Hot Dog,100,235
+Hot Dog Sausage,100,193
+Hot Dog bun,100,469
+Hot Wings,100,243
+Hotdog with Chili,100,260
+Hushpuppies,100,245
+Ice Cream Cookie Sandwich,100,240
+Instant Ramen,100,95
+Italian BMT (Subway),100,540
+Kebab,100,158
+Large French Fries,100,289
+McChicken (McDonald's),100,230
+McDonald's Big Mac,100,234
+McDonald's Cheeseburger,100,254
+McDonald's Chicken Nuggets,100,252
+McDonald's Double Cheeseburger,100,350
+McDonald's Filet o Fish,100,373
+McDonald's McDouble,100,81
+McRib (McDonald's),100,226
+Nachos Supreme,100,367
+New York Style Pizza,100,25
+Onion Rings,100,252
+Original Chicken Sandwich (Burger King),100,298
+Peanut Butter Sandwich,100,384
+Plant Based Burgers,100,173
+Poutine,100,288
+Premium Grilled Chicken Classic Sandwich,100,175
+Quarter Pounder (McDonald's),100,256
+Quarter Pounder with Cheese,100,258
+Reuben Sandwich,100,224
+Roast Beef Sandwich,100,20
+Sausage Biscuit,100,350
+Sausage Burrito,100,94
+Sausage McGriddles (McDonald's),100,312
+Sausage McMuffin (McDonald's),100,333
+Sloppy Joe,100,321
+Spring Roll,100,212
+Subway Club Sandwich,100,258
+Taco Salad,100,500
+Turkey Breast Sandwich,100,70
+Vegan Hot Dogs,100,204
+Veggie Burger,100,204
+Veggie Delight,100,138
+Wendy's Baconator,100,445
+Wendy's Jr Bacon Cheeseburger,100,271
+Wendy's Jr Cheeseburger,100,208
+Wendy's Son of Baconator,100,296
+Whopper (Burger King),100,250
+Zinger Burger (KFC),100,244
+BBQ Chicken Pizza,100,237
+BBQ Pizza,100,242
+Bianca Pizza,100,220
+Buffalo Chicken Pizza,100,211
+Calzone,100,227
+Capricciosa Pizza,100,169
+Cheese Pizza,100,303
+Chicken Pizza,100,243
+Deep Dish Pizza,100,265
+Dominos Philly Cheese Steak Pizza,100,1440
+Hawaiian Pizza,100,115
+Margherita Pizza,100,240
+Mozzarella Pizza,100,222
+Mushroom Pizza,100,201
+Napoli Pizza,100,234
+Pepperoni Pizza,100,239
+Pepperoni Pizza Pizza Hut,100,295
+Pizza,100,222
+Pizza Dough,100,307
+Pizza Hut Stuffed Crust Pizza,100,221
+Pizza Hut Supreme Pizza,100,413
+Pizza Slice,100,225
+Pizza, homemade,100,274
+Quattro Formaggi Pizza,100,82
+Salami Pizza,100,239
+Sausage Pizza,100,188
+Schwan's Pizza,100,345
+Seafood Pizza,100,189
+Shrimp Pizza,100,332
+Sicilian Pizza,100,183
+Spinach Feta Pizza,100,165
+Spinach Pizza,100,280
+Stuffed Crust Pizza,100,274
+Thin Crust Pizza,100,273
+Tuna Pizza,100,227
+Vegetable Pizza,100,154
+Veggie Pizza,100,156
+White Pizza,100,306
+Avocado Sushi,100,93
+California Inside Out,100,93
+California Roll,100,94
+Cucumber Maki,100,93
+Inside Out Sushi,100,94
+Maki, Avocado,100,163
+Nigiri,100,165
+Nori,100,315
+Pickled Ginger,100,20
+Salmon Maki,100,163
+Salmon Sashimi,100,180
+Salmon Sushi,100,158
+Sashimi,100,188
+Soy Sauce,100,122
+Surimi,100,114
+Sushi,100,306
+Tempura Sushi,100,160
+Tuna Maki,100,140
+Tuna Sushi,100,173
+Uramaki,100,187
+Wasabi,100,137
+7 Up (PepsiCo),100,42
+Acai Juice,100,56
+Ale,100,34
+Amp Energy (PepsiCo),100,46
+Apple Juice,100,56
+Apple Juice Concentrate,100,46
+Apricot Nectar,100,44
+Banana Juice,100,53
+Barq's,100,47
+Bitter Lemon,100,50
+Canada Dry Ginger Ale,100,39
+Capri Sun,100,36
+Carrot Juice,100,24
+Cherry Coke,100,43
+Cherry Juice,100,60
+Clamato,100,25
+Club Mate,100,20
+Club Soda,100,0
+Coconut Water,100,15
+Coke Zero,100,0
+Coke,100,42
+Cranberry Apple Juice,100,63
+Cranberry Grape Juice,100,56
+Cranberry Juice,100,179
+Cream Soda,100,46
+Crystal Light,100,4
+Cucumber Juice,100,10
+Diet Cherry Coke (Coca Cola),100,0
+Diet Coke (Coca Cola),100,0
+Diet Dr Pepper,100,2
+Diet Pepsi,100,462
+Diet Sunkist,100,0
+Dr. Pepper,100,42
+Egg Cream,100,45
+Elderflower Syrup,100,240
+Energy Drink,100,46
+Fanta (Coca Cola),100,42
+Fanta Zero (Coca Cola),100,0
+Five Alive,100,46
+Fresca,100,39
+Fresh Orange Juice,100,46
+Fruit Juice,100,61
+Fruit Punch,100,48
+Fruit Smoothie,100,46
+Fruitopia, Strawberry (Coca Cola),100,40
+Full Throttle,100,46
+Fuze,100,45
+Fuze Tea, Lime,100,19
+Gatorade,100,24
+Gatorade G2,100,8
+Ginger Ale,100,34
+Grape Juice,100,270
+Grape Soda,100,31
+Grapefruit Juice,100,53
+Grenadine,100,50
+Guava Nectar,100,48
+Hawaiian Punch,100,472
+Horchata,100,54
+Iced Tea,100,9
+Jolt Cola,100,40
+Kool Aid (Kraft Heinz),100,64
+Lemon Juice,100,37
+Lemon Lime Soda,100,62
+Lime Juice,100,25
+Limeade,100,0
+Malt Powder,100,99
+Mango Nectar,100,60
+Manzana,100,223
+Mello Yello,100,691
+Minute Maid,100,16
+Molson,100,45
+Monster Energy,100,133
+Monster Energy Ultra,100,233
+Mug Root Beer,100,44
+Nectar,100,70
+Nestea,100,20
+Noni, drink,100,370
+Orange Juice,100,43
+Orange Soda,100,241
+Papaya Juice,100,334
+Passion Fruit Juice,100,224
+Peach Juice,100,42
+Pear Juice,100,48
+Pear Nectar,100,64
+Pepsi,100,44
+Pepsi Max,100,0
+Pesca,100,20
+Pibb Xtra (Coca Cola),100,79
+Pineapple Juice,100,44
+Pineapple Orange Juice,100,51
+Pink Lemonade,100,40
+Pomegranate Juice,100,47
+Powerade,100,18
+Prune Juice,100,46
+Punch,100,44
+Red Bull Energy Drink,100,46
+Schweppes Ginger Ale,100,345
+Slurpee,100,448
+Smoothie,100,133
+Soft Drink,100,41
+Sports Drink,100,717
+Sprite (Coca Cola),100,33
+Sprite Zero (Coca Cola),100,1
+Squirt,100,328
+Strawberry Shake,100,113
+Sweet Tea,100,28
+TaB,100,2
+Tangerine Juice,100,49
+Tap Water,100,0
+Tilt,100,38
+Tomato Juice,100,17
+Tonic Water,100,34
+Turkey Hill,100,94
+Vanilla Coke,100,42
+Vegetable Juice,100,34
+Water,100,0
+Water With Lemon,100,11
+White Grape Juice,100,32
+White Grapefruit Juice,100,254
+Almond Milk Coffee,100,164
+Black Coffee,100,2
+Black Coffee, with sugar,100,10
+Cafe Americano,100,4
+CaffÃ¨ Macchiato,100,4
+Cappuccino,100,34
+Coffee With Creamer,100,16
+Coffee with Almond Milk,100,531
+Coffee with Milk and Sugar,100,12
+Coffee with Milk,100,63
+Coffee with Skim Milk,100,30
+Coffee with Soy Milk,100,385
+Coffee with Whole Milk,100,63
+Coffee,100,2
+Double Espresso,100,9
+Espresso,100,2
+Flat White Coffee,100,218
+Grande Cafe Latte,100,70
+Iced Coffee,100,75
+Instant Coffee,100,362
+Latte,100,44
+Nescafe Classic,100,118
+NescafÃ© GOLD,100,123
+Turkish Coffee,100,380
+White Coffee,100,551
+Brut Champagne,100,82
+Cabernet Sauvignon,100,83
+Cava,100,75
+Champagne,100,83
+Chardonnay,100,84
+Chenin Blanc,100,80
+Cider,100,47
+Cooking Wine,100,50
+Dry Red Wine,100,83
+Gewurztraminer White Wine,100,81
+Malbec Wine,100,86
+Marsala Wine,100,117
+Merlot,100,83
+Moscato Wine,100,365
+Mulled Wine,100,107
+Non Alcoholic Wine,100,15
+Pinot Gris,100,83
+Pinot Noir,100,82
+Plum Wine,100,106
+Port Wine,100,154
+Prosecco,100,83
+Red Wine,100,74
+Riesling,100,80
+Rose Wine,100,89
+Sangria,100,96
+Sauvignon Blanc,100,81
+Sherry,100,118
+Shiraz,100,40
+Sparkling Wine,100,83
+Sweet Red Wine,100,25
+Sweet White Wine,100,98
+Table Wine,100,74
+Vermouth,100,160
+White Wine,100,74
+White Zinfandel,100,51
+Wine,100,74
+Yellow Tail Wine,100,81
+Zinfandel,100,88
+Beck's,100,38
+Beer,100,42
+Beer, light,100,20
+Bud Ice,100,34
+Bud Light,100,29
+Bud Light Lime,100,31
+Bud Select,100,28
+Bud Select 55,100,15
+Budweiser,100,41
+Busch,100,17
+Carlsberg,100,45
+Coors,100,29
+Coors Light,100,31
+Dark Beer,100,37
+Genesee Cream Ale,100,46
+Ginger Beer,100,45
+Guinness,100,30
+Heineken,100,42
+Honey Brown,100,51
+Hurricane High Gravity,100,52
+IPA, India Pale Ale (BrewDog Punk),100,
+Keystone Ice,100,40
+Keystone Light,100,101
+Labatt, Michelob Ultra,100,27
+Lager Beer,100,42
+Land Shark,100,42
+Light Beer,100,30
+LÃ¶wenbrÃ¤u Original,100,44
+Malt Beer,100,54
+Michelob Amber Bock,100,43
+Michelob Lager,100,44
+Michelob Light,100,27
+Michelob Ultra,100,17
+Michelob Ultra Amber,100,28
+Michelob Ultra Lime Cactus,100,27
+Miller Chill,100,37
+Miller Genuine Draft,100,41
+Miller High Life,100,40
+Miller High Life Light,100,30
+Miller Lite,100,27
+Milwaukee's Best,100,41
+Milwaukee's Best Light,100,28
+Natural Light,100,95
+Newcastle Brown Ale,100,40
+Non Alcoholic Beer,100,25
+Old Milwaukee (Pabst Brewing Company),100,42
+Olde English (Miller Brewing Company),100,45
+Pabst Blue Ribbon,100,41
+Pale Ale,100,35
+Pilsner,100,42
+Rolling Rock,100,39
+Root Beer,100,2
+Samuel Adams,100,49
+Shock Top,100,47
+Shock Top Raspberry Wheat,100,50
+Stout Beer,100,54
+Strong Beer,100,70
+Wheat Beer,100,38
+Absinthe,100,443
+Amaretto,100,318
+Applejack,100,231
+Asti,100,83
+Baileys (17%),100,314
+Blue Curacao,100,243
+Bourbon,100,248
+Brandy,100,305
+Bud Light Chelada,100,42
+Budweiser Chelada,100,52
+Chambord (16.5%),100,
+Coffee Liqueur,100,336
+Coincreatu,100,336
+Colt (45%),100,58
+Daiquiri,100,186
+Dark Rum,100,231
+Drambuie (40%),100,366
+Eggnog,100,285
+Frangelico (20%),100,
+Gin,100,265
+Gin Tonic,100,66
+Grand Marnier,100,318
+Irish Whiskey (Tullamore Dew),100,
+Jack Daniel's (35%),100,
+Jim Beam (40%),100,240
+JÃ¤germeister (35%),100,255
+Kahlua (16%),100,245
+Liquor,100,286
+Midori (20%),100,224
+Pina Colada,100,78
+Rum,100,234
+Sambuca,100,386
+Scotch,100,231
+Southern Comfort,100,231
+Steel Reserve, Hi Gravity Malt Liquor,100,62
+Tequila,100,231
+Tequila Sunrise,100,110
+Triple Sec,100,176
+Vodka,100,234
+Vodka Smirnoff (37.5%),100,62
+Whiskey Sour,100,149
+Whiskey,100,247
+3 Musketeers (Mars),100,107
+85% Dark Chocolate,100,584
+After Eight Mints (NestlÃ©),100,426
+Airheads,100,400
+Almond Roca,100,556
+Animal Crackers,100,53
+Birthday Cake,100,400
+Biscoff,100,452
+Biscuit, hard,100,412
+Brittle,100,200
+Butterscotch,100,391
+Candy Apple,100,134
+Candy Cane,100,412
+Candy Corn,100,359
+Cannoli,100,254
+Caramel Rice Cake,100,385
+Caramel Squares,100,385
+Caramels,100,448
+Celebrations (Mars),100,499
+Chewing Gum,100,381
+Chocolate,100,543
+Chocolate Bar,100,479
+Chocolate Chip Cookie,100,492
+Chocolate Coffee Beans,100,540
+Chocolate Covered Graham Crackers,100,417
+Chocolate Fudge,100,400
+Chocolate Pretzels,100,371
+Chocolate Wafers,100,433
+Chocolate Wine,100,548
+Clif Bar,100,346
+Cookies,100,438
+Cotton Candy,100,394
+Crab apple,100,464
+Crystallized Ginger,100,257
+Dairy Milk,100,513
+Dar Vida,100,412
+Dark Chocolate,100,517
+Digestive Milk Chocolate,100,471
+Digestive,100,483
+Ferrero Rocher,100,602
+Fortune Cookies,100,378
+Fruit Leather,100,359
+Gingerbread,100,394
+Gingersnap Cookies,100,416
+Glazed Donut,100,418
+Goldfish,100,455
+Graham Crackers,100,430
+Gumdrops,100,333
+Gummi Bears,100,343
+Halavah,100,400
+Hanuta (Ferrero),100,542
+Hard Candy,100,394
+Hershey Kisses,100,500
+Honeycomb,100,333
+Hot Chocolate,100,132
+Jaffa Cakes,100,75
+Jellies,100,396
+Jelly Beans (Jelly Belly),100,419
+Jolly Ranchers,100,263
+Jordan Almonds,100,60
+Kit Kat (NestlÃ©),100,511
+Ladyfingers,100,408
+Laffy Taffy,100,359
+Licorice,100,376
+LifeSavers (Wrigley),100,325
+Lindor Chocolate Balls (Lindt),100,623
+Lindt Chocolate,100,620
+Lollipop,100,392
+M&M's,100,515
+Macaron,100,492
+Maltesers (Mars),100,500
+Mars Bar,100,449
+Marshmallow,100,328
+Marzipan,100,498
+Merci (Storck),100,563
+Meringue,100,359
+Mike and Ike,100,396
+Milk Chocolate,100,540
+Milk Chocolate Kisses (Hershey's),100,176
+Milk Duds,100,43
+Milky Way (Mars),100,447
+Mini Milk (Wall's),100,362
+Nonpareils,100,94
+Nutella (Ferrero),100,540
+Nutri Grain (Kellogg's),100,212
+Oatmeal Cookies,100,450
+Oatmeal Raisin Cookies,100,450
+Oreo,100,474
+Panettone,100,365
+PayDay (Hershey),100,142
+Peanut Bar,100,522
+Peanut Brittle,100,486
+Peanut Butter Bars,100,542
+Peanut Butter Cookies,100,475
+Peanut Butter Cup,100,359
+Peanut Butter Fudge,100,387
+Peanut Butter Sandwich Cookies,100,478
+Peppermint Bark,100,500
+Pera,100,389
+Pez,100,400
+Poularde,100,185
+Praline,100,404
+Raisin Bread,100,270
+Raisin Cookies,100,401
+Raisin Nut Bran,100,53
+Rock Sugar,100,394
+Rolo,100,479
+Sesame Crunch,100,333
+Shortbread,100,438
+Shredded Wheat,100,40
+Skittles Original (Wrigley),100,402
+Skittles Wild Berry (Wrigley's),100,402
+Smarties (NestlÃ©),100,471
+Snickers (Mars),100,481
+Snickers Mini (Mars),100,51
+Soko,100,327
+Sparks,100,334
+Speculoos,100,497
+Spritz Cookies,100,541
+Strawberry Topping,100,57
+Sugar Apple,100,94
+Sugar Coated Almonds,100,451
+Sugar Cookies,100,367
+Sunkist,100,411
+Taffy,100,387
+Tarte Tatin,100,170
+Toblerone (Mondelez),100,535
+Toffee,100,448
+Twix (Mars),100,494
+Vanilla Fudge,100,383
+Vanilla Wafers,100,455
+Waffle,100,562
+White Chocolate,100,541
+Zinger (Hostess),100,361
+Baskin Robbins,100,239
+Ben and Jerry's,100,217
+Blue Moon,100,203
+Caramel Sundae,100,196
+Chocolate Chip Ice Cream,100,237
+Chocolate Frozen Yogurt,100,131
+Chocolate Ice Cream,100,179
+Chocolate Milkshake,100,135
+Coffee Cake,100,372
+Coffee Ice Cream,100,179
+Crunchie McFlurry,100,176
+French Vanilla Ice Cream,100,222
+Frozen Yogurt,100,202
+Hot Fudge Sundae,100,59
+Ice Cream Cone,100,262
+Ice Cream Sandwich,100,267
+Ice Cream Sundae (McDonald's),100,155
+Ice Cream, Butter Pecan,100,180
+Italian Ice,100,128
+Magnolia Sorbet,100,367
+Magnum (Wall's),100,234
+Magnum Almond (Wall's),100,248
+Magnum Double Caramel,100,338
+Magnum Double Chocolate,100,359
+Magnum Gold (Wall's),100,325
+Magnum White (Wall's),100,282
+McFlurry (McDonald's),100,248
+McFlurry Oreo (McDonald's),100,215
+Mint Chocolate Chip Ice Cream,100,61
+Natural Ice,100,175
+Orange Sherbet,100,40
+Pop Ice,100,182
+Rocky Road Ice Cream,100,375
+Smarties McFlurry (McDonald's),100,230
+Snickers Ice Cream (Mars),100,20
+Soft Serve,100,128
+Solero (Wall's),100,290
+Strawberry Ice Cream,100,88
+Strawberry Sundae,100,158
+Vanilla Cone,100,329
+Vanilla Ice Cream,100,188
+Angel Food Cake,100,263
+Apple Cake,100,216
+Apple Cobbler,100,220
+Apple Pie,100,265
+Apple Pie Filling,100,100
+Apple Strudel,100,170
+Apple Turnover,100,233
+Applesauce Cake,100,425
+Bakewell Tart,100,414
+Banana Cream Pie,100,269
+Black Forest Cake,100,280
+Blueberry Muffin,100,304
+Blueberry Pie,100,53
+Brownie,100,507
+Bundt Cake,100,381
+Caramel Cake,100,476
+Carrot Cake,100,415
+Cheesecake,100,327
+Cherry Pie,100,260
+Chess Pie, Lemon,100,80
+Chocolate Cake,100,345
+Chocolate Cake With Chocolate Coverage,100,216
+Chocolate Cream Pie,100,291
+Chocolate Fudge Brownie,100,38
+Chocolate Mousse Cake,100,411
+Chocolate Mousse Pie,100,260
+Chocolate Muffin,100,297
+Coconut Cake,100,356
+Corn Muffin,100,389
+Cupcake,100,200
+Danish Pastry,100,371
+Donut,100,396
+Donut with Cream Filling,100,391
+Dutch Apple Pie,100,442
+Egg Custard,100,309
+Flourless Chocolate Cake,100,69
+Fruit Cake,100,117
+Fruitcake,100,324
+Funnel Cake,100,45
+German Chocolate Cake,100,375
+Ham and Cheese Cake,100,270
+Hotcakes,100,70
+Ice Cream Cake,100,299
+Layer Cake,100,421
+Lemon Cake,100,384
+Lemon Meringue Pie,100,268
+Madeira Cake,100,57
+Marble Cake,100,409
+Muffin,100,222
+Oat Bran Muffin,100,270
+Opera Cake,100,320
+Peach Cobbler,100,72
+Peach Pie,100,182
+Pecan Pie,100,142
+Pie Crust,100,435
+Pineapple Upside Down Cake,100,319
+Plum Cake,100,197
+Poppy Seed Cake,100,294
+Pound Cake,100,100
+Pumpkin Cheesecake,100,341
+Pumpkin Pie,100,191
+Raspberry Pie,100,373
+Red Velvet Cake,100,82
+Rhubarb Pie,100,255
+Rice Cakes Lightly Salted,100,88
+Rum Cake,100,112
+Sacher Torte,100,391
+Shortcake,100,346
+Spanakopita,100,270
+Spice Cake,100,390
+Sponge Cake,100,320
+Sprinkles,100,3
+Squash,100,191
+Strawberry Cheesecake,100,357
+Strawberry Pie,100,137
+Strawberry Rhubarb Pie,100,281
+Sweet Potato Pie,100,269
+Swiss Roll,100,269
+Tiramisu cake,100,235
+Treacle Tart,100,68
+Tres Leches Cake,100,118
+Victoria Sponge Cake,100,408
+Wedding Cake,100,391
+White Cake,100,222
+Whoopie Pie,100,160
+Yellow Cake,100,361
+Yellow Cake with Chocolate Frosting,100,379
+Angel Delight (Premier Foods),100,120
+Apple Dippers,100,124
+Applesauce,100,53
+Blueberry Cobbler,100,227
+Bread Pudding,100,155
+Chocolate Mousse,100,347
+Chocolate Pudding,100,95
+Corn Pudding,100,191
+Crepe,100,192
+Custard,100,95
+Dulce de Leche,100,315
+Flan,100,145
+Gelatin Dessert,100,60
+Ice Milk,100,60
+Lemon Pudding,100,399
+Pie,100,501
+Profiterole,100,530
+Rice Pudding,100,94
+Tapioca Pudding,100,132
+Tiramisu,100,312
+Trifle,100,168
+Vanilla Frozen Yogurt,100,159
+Vanilla Pudding,100,124
+Acorn,100,387
+Alfalfa Sprout,100,35
+Almond,100,619
+Almond Butter,100,652
+Almonds, roasted,100,620
+Avocado Oil,100,899
+Beechnut,100,576
+Black Sesame,100,614
+Brazil Nut,100,707
+Breadfruit Seeds,100,191
+Cashew,100,603
+Cashew Butter,100,624
+Chestnut,100,210
+Chestnuts, roasted,100,245
+Chia Seeds,100,455
+Coconut Meat,100,354
+Coconut Whole Coconut,100,384
+Coriander Seeds,100,298
+Cotton Seeds,100,506
+Fennel Seed,100,376
+Fenugreek Seeds,100,327
+Flax Seed,100,494
+Ginkgo Nuts,100,182
+Hazelnut,100,674
+Hickory Nuts,100,349
+Lotus Seed,100,89
+Macadamia Nuts,100,731
+Mandeln,100,619
+Marron,100,210
+Mixed Nuts,100,507
+Moringa,100,551
+Nuts,100,290
+Peanut Butter,100,600
+Peanut,100,605
+Pecan,100,729
+Pignut,100,596
+Pili Nuts,100,393
+Pine Nuts,100,596
+Pistachios,100,615
+Poppy Seed,100,533
+Pumpkin Seeds,100,587
+Roasted Almonds,100,64
+Safflower Seeds,100,336
+Sesame Butter,100,48
+Sesame Meal,100,252
+Sesame Seeds,100,600
+Smoked Almonds,100,607
+Soy Nut Butter,100,143
+Soy Nuts,100,269
+Spanish Peanuts,100,122
+Sunbutter,100,291
+Sunflower Seeds,100,594
+Sweet Chestnut,100,224
+Tigernut,100,500
+Trail Mix,100,521
+Tropical Trail Mix,100,442
+Walnut,100,733
+Water Chestnut,100,484
+Almond Oil,100,898
+Argan Oil,100,900
+Bacon Grease,100,52
+Basil,100,47
+Beef Tallow,100,902
+Borage,100,33
+Butter,100,754
+Butter Oil,100,876
+Canola Oil,100,282
+Chicken Fat,100,900
+Cod Liver Oil,100,898
+Corn Oil,100,900
+Cottonseed Oil,100,884
+Dill,100,65
+Duck Fat,100,929
+Extra Virgin Olive Oil,100,900
+Flaxseed Oil,100,900
+Flora Light,100,269
+Garlic Powder,100,331
+Goose Fat,100,900
+Grapeseed Oil,100,900
+Hazelnut Oil,100,898
+Hemp Oil,100,900
+Lard,100,897
+Macadamia Oil,100,800
+Margarine,100,722
+Mustard Oil,100,326
+Olive Oil,100,901
+Palm Oil,100,900
+Peanut Oil,100,901
+Poppy Seed Oil,100,900
+Pumpkin Seed Oil,100,900
+Safflower Oil,100,279
+Salmon Oil,100,900
+Salted Butter,100,701
+Sesame Oil,100,901
+Shortening,100,884
+Soy Margarine,100,732
+Soy Oil,100,900
+Sunflower Butter,100,722
+Sunflower Oil,100,900
+Unsalted Butter,100,749
+Vegetable Oil Rape,100,900
+Vegetable Shortening,100,450
+Walnut oil,100,900
+Wheat Germ Oil,100,900
+Almond Milk, original,100,22
+Almond Milk, unsweetened,100,13
+Azumaya Tofu,100,82
+Bean Curd,100,154
+Firm Tofu,100,85
+Fried Bean Curd,100,61
+Meatless Meatballs,100,197
+Oat Milk,100,40
+Plant Based Chicken,100,429
+Rice Milk,100,53
+Silken Tofu,100,53
+Soft Tofu,100,53
+Soy CheeseÂ,100,198
+Soy Drink,100,29
+Soy Noodles,100,348
+Soy Nut Butter,100,143
+Soy Yogurt,100,29
+Soya Chunks,100,257
+Sweetened Condensed Milk,100,321
+Tempeh,100,167
+Tofu,100,127
+Tofu, fried,100,136
+Unsweetened Almond Milk,100,13
+Unsweetened Soy Milk,100,422
+Unsweetened Vanilla Almond Milk,100,21
+Vegan Chicken,100,159
+Vegan Meat,100,255
+Vegan steak,100,268
+Veggie Patty,100,198
+BCAA,100,400
+Booster, Vanilla,100,500
+Casein,100,333
+Chlorella,100,344
+Chocolate Shake,100,60
+Collagen,100,357
+Collagen Peptides,100,357
+Creatin,100,100
+EAA, Vanilla,100,365
+Glucerna Original Shake,100,76
+Herbalife Tea,100,361
+Impact Whey Protein (MyProtein),100,409
+Mass Gainer,100,379
+Omega 3,100,687
+Protein,100,352
+Protein Bar,100,382
+Protein Powder,100,401
+Protein Shake,100,60
+Soy Protein Powder,100,446
+Vegan protein,100,402
+Weight Gainer,100,367
+Whey Protein,100,401
+Whey Protein Gold Standard,100,377
+Whey Protein Isolate,100,48
+Whey Protein Powder Vanilla,100,377
+1000 Island Dressing,100,26
+Agave Syrup,100,305
+Ajvar,100,78
+Apple Cider Vinegar,100,19
+Apricot Jam,100,214
+Au Jus,100,16
+Balsamic Vinaigrette Dressing,100,330
+Balsamic Vinegar,100,97
+Barbecue Sauce,100,163
+Basil Pesto,100,570
+Beef Gravy,100,390
+Bernaise Sauce,100,529
+Blackberry Jam,100,280
+Blackcurrant Jam,100,269
+Blue Cheese Dressing,100,105
+Blueberry Jam,100,280
+Bolognese,100,117
+Bouillon,100,5
+Buttermilk Ranch Dressing,100,367
+Caesar Dressing,100,458
+Canadian Maple Syrup,100,270
+Catalina Dressing,100,419
+Cheese Whiz,100,250
+Cherry Jam,100,280
+Chicken Gravy,100,48
+Chicken Gumbo Soup,100,23
+Chili Sauce,100,92
+Chocolate Hazelnut Spread,100,591
+Chocolate Spread,100,539
+Chunky Peanut Butter,100,593
+Cocktail Sauce,100,422
+Coffee Mate Coffee Creamer,100,500
+Coleslaw Dressing,100,404
+Cranberry Orange Relish,100,178
+Cream Sauce,100,163
+Creamy Peanut Butter,100,632
+Curry Sauce,100,231
+Damson,100,270
+Dijon Mustard,100,100
+Duck Sauce,100,245
+Elderflower Syrup,100,240
+Fish Sauce,100,35
+French Dressing,100,56
+Fruit Jam,100,278
+Gravy,100,52
+Gravy Granules,100,347
+Greek Dressing,100,333
+Green Goddess Dressing,100,427
+Guacamole,100,163
+Ham Salad,100,684
+Hoisin Sauce,100,220
+Honey Mustard Dressing,100,464
+Hummus,100,247
+Italian Dressing,100,165
+Jelly,100,279
+Jif Peanut Butter,100,540
+Ketchup,100,110
+Lemon Pie Filling,100,184
+Maple Sugar,100,354
+Maple Syrup,100,260
+Marmite,100,150
+Marshmallow Fluff,100,322
+Mayonaise,100,757
+Mayonnaise Dressing,100,397
+Mayonnaise, light,100,490
+Mullet,100,154
+Mushroom, gravy,100,108
+Mustard,100,88
+Mustard Sauce,100,113
+Máº­t Ong,100,411
+Natural Peanut butter,100,621
+Nutella (Ferrero),100,540
+Olive Spread,100,278
+Orange Marmalade,100,174
+Orange Sauce,100,392
+Oyster Sauce,100,594
+Pancake Syrup,100,23
+Peanut Spread,100,556
+Peppercorn Dressing,100,564
+Pesto,100,530
+Peter Pan Peanut Butter (Post),100,223
+Pizza Sauce,100,48
+Plum Jam,100,280
+Plum Sauce,100,380
+Poppyseed Dressing,100,128
+Powdered Peanut Butter,100,386
+Ranch Dressing,100,106
+Raspberry Jam,100,250
+Red Wine Vinegar,100,21
+Reeses Peanut Butter Cups,100,129
+Remoulade Sauce,100,651
+Russian Dressing,100,355
+Salad cream,100,277
+Salsa Verde,100,226
+Salsa con Queso,100,9
+Salsa,100,83
+Sesame Ginger Dressing,100,27
+Sesame Paste,100,659
+Skippy Creamy Peanut Butter,100,105
+Skippy Peanut Butter,100,154
+Smooth Peanut Butter,100,598
+Smuckers Strawberry Jam,100,60
+Sofrito,100,39
+Sour Cream Sauce,100,316
+Soy Mayonnaise,100,482
+Soy Sauce,100,122
+Soynut Butter,100,594
+Steak Sauce,100,163
+Strawberry Jam,100,280
+Strawberry Jelly,100,300
+Sunflower Seed Butter,100,130
+Sweet Chilli,100,167
+Sweet and Sour Sauce,100,203
+Tabasco,100,45
+Tahini,100,598
+Tartar Sauce,100,467
+Teriyaki sauce,100,100
+Tomato Ketchup,100,299
+Tomato Paste,100,43
+Tomato Puree,100,23
+Tomato Sauce,100,64
+Turkey Stuffing,100,393
+Tzatziki,100,55
+Vegemite,100,185
+Vegetable Cream Cheese,100,321
+Vinaigrette,100,366
+Vinegar,100,18
+White Sauce,100,71
+Wild Honey,100,144
+Worcestershire Sauce,100,290
+Yogurt Dressing,100,126
+Zesty Italian Dressing,100,185
+Bagel Chips,100,451
+Baked Chips,100,469
+Banana Chips,100,519
+Beef Stick,100,583
+Butterscotch Chips,100,539
+Caramel Pop Corn,100,369
+Cheese Crackers,100,489
+Cheese Popcorn,100,526
+Chester,100,541
+Chips,100,566
+Chocolate Rice cakes,100,45
+Corn Cake,100,81
+Corn Chips,100,480
+Corn Thins Original,100,383
+Cream Cracker,100,443
+Doritos,100,519
+Flaming Hot Cheetos,100,571
+Fruit Gushers,100,360
+Granola Bar,100,322
+Grissini,100,276
+Microwave Popcorn,100,385
+Nachos,100,482
+Nachos with Cheese,100,293
+Oriental Rice Cracker Mix,100,22
+Palmyra Sprout,100,384
+Pita Chips,100,75
+Plantain Chips,100,277
+Popcorn, air popped,100,385
+Popcorn, oil popped,100,326
+Popcorn, unpopped,100,338
+Pretzel Sticks,100,349
+Ready Salted Crisps,100,529
+Rice Crisps,100,113
+Roasted Chickpeas,100,464
+Roasted Soybeans,100,449
+S'mores, Candy Bar,100,318
+Scoops Tortilla Chips,100,500
+Sea Kale,100,500
+Sesame Sticks,100,541
+Soy Chips,100,189
+Sweet Peas,100,544
+Sweet Potato Chips,100,237
+Taro Chips,100,254
+Tepary Bean,100,571
+Tortilla chips,100,309
+Vegetable Chips,100,512
+Anise,100,337
+Aonori,100,0
+Bay Leaf,100,353
+Black Pepper,100,308
+Black Tea,100,0
+Black Tea, with milk,100,3
+Broth,100,148
+Caper,100,28
+Caraway Seed,100,371
+Cardamom,100,355
+Cayenne Pepper,100,379
+Celery Seeds,100,62
+Chai Tea,100,50
+Chamomile Tea,100,274
+Chickweed,100,433
+Chili Powder,100,282
+Chili,100,379
+Chives,100,40
+Cinnamon,100,317
+Cinnamon, ground,100,317
+Cloves,100,433
+Coriander,100,23
+Cumin Seed,100,375
+Curry,100,338
+Dill Seeds,100,305
+Fenugreek,100,364
+Garlic Salt,100,0
+Ginger,100,52
+Ginger Root,100,80
+Ginger Tea, bags,100,333
+Green Pepper,100,23
+Green Tea,100,0
+Ground Elder,100,39
+Ground Ginger,100,318
+Harissa,100,302
+Hibiscus Tea,100,286
+Indian Tea,100,50
+Juniper berry,100,386
+Kombucha,100,25
+Land Cress,100,31
+Lemon Grass,100,75
+Loroco,100,18
+Maggi,100,68
+Marjoram,100,52
+Milo (NestlÃ©),100,52
+Mint,100,50
+Mustard Seed,100,278
+Nutmeg,100,538
+Onion Powder,100,341
+Orange Bell Pepper,100,141
+Oregano,100,567
+Paprika,100,308
+Parsley,100,60
+Pepper,100,45
+Peppermint,100,50
+Pimiento,100,344
+Poultry Seasoning,100,98
+Pumpkin Pie Spice,100,342
+Red Chili Peppers,100,40
+Roselle,100,49
+Rosemary,100,62
+Saffron,100,353
+Sage,100,59
+Salt,100,0
+Samphire,100,45
+Savory,100,53
+Sea Salt,100,0
+Spicy Italian,100,301
+Stinging Nettles,100,48
+Taro Leaves,100,124
+Tarragon,100,60
+Tea,100,0
+Tea with Milk,100,357
+Tea with Milk and Sugar,100,355
+Tea with Semi Skimmed Milk,100,3
+Thai Curry Paste,100,262
+Thyme,100,52
+Turmeric,100,367
+Vanilla,100,316
+Wasabi,100,137
+Watercress,100,21
+Watercress,100,41
+White Pepper,100,326
+Yarrow,100,216
+Yerba Mate,100,375
+Zaatar,100,0

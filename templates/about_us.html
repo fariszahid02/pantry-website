@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - PantryPal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f0f4f8;
+            margin: 0;
+            text-align: center;
+        }
+        .section {
+            padding: 3rem 1.5rem;
+        }
+        .hero-body {
+            padding: 2rem 1.5rem;
+        }
+        .title, .subtitle {
+            color: #333;
+        }
+                /*Login and register*/
+        .login-button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 10px;}
+
+        .register-button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            right: 85px;
+            top: 10px;
+        }
+        .login-button:hover, .register-button:hover {
+            background-color: #004494;
+        }
+        /*side bar*/
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: width 0.3s;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 10px 0px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: #f6f6f6;
+            z-index: 1;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            background-color: #111;
+            padding: 10px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button class="openbtn" onclick="toggleNav()">☰ Menu</button>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+            <a href="/base">Base</a>
+        </div>
+        <button class="login-button" onclick="location.href='/user/login'">Login</button>
+        <button class="register-button" onclick="location.href='/user/register'">Register</button>
+    </div>
+    <section class="hero is-white is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">About Us</h1>
+                <h2 class="subtitle">We are second-year Computer Science students from Newcastle University.</h2>
+                <p class="subtitle">Our app, PantryPal, aims to help users manage their pantry efficiently, reduce food waste, and discover new recipes.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" style="background-color: white;">
+        <div class="container">
+            <h2 class="title is-3"><i class="fas fa-utensils"></i> View and Manage Food Items</h2>
+            <p>With PantryPal, you can easily view the food you have in stock, keep track of expiry dates,
+                and filter items based on calorie content and expiration dates. This helps in planning meals and reducing food waste effectively.</p>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: #e0ffff;">
+        <div class="container">
+            <h2 class="title is-3"><i class="fas fa-book-open"></i> Recipes</h2>
+            <p>Discover new recipes or create your own. PantryPal allows you to browse recipes,
+                save your favorites, and even generate shopping lists based on the ingredients needed for your chosen recipes.</p>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: white;">
+        <div class="container">
+            <h2 class="title is-3"><i class="fas fa-shopping-cart"></i> Shopping Lists</h2>
+            <p>Create and manage shopping lists effortlessly. Once you complete a shopping list,
+                the items are automatically added to your pantry inventory, making it easy to keep track of what you have on hand.</p>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: #e0ffff;">
+        <div class="container">
+            <h2 class="title is-3"><i class="fa-solid fa-scanner-touchscreen"></i> Scan Barcodes</h2>
+            <p>Discover the easy way to add to your pantry. PantryPal allows you to scan barcodes to speed up adding new foods.</p>
+        </div>
+    </section>
+
+
+    <section class="section" style="background-color: white;">
+        <div class="container">
+            <h2 class="title is-3"><i class="fas fa-shopping-cart"></i> Check your calories</h2>
+            <p>PantryPal provides filters for your pantry and recipes to help you stay on top of your health goals.</p>
+        </div>
+    </section>
+
+
+        <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <p class="title"><i class="fas fa-archive"></i> Inventory Management</p>
+                    <p>Keep track of your ingredients, expiry dates, and quantities.</p>
+                </div>
+                <div class="column is-4">
+                    <p class="title"><i class="fas fa-shopping-cart"></i> Shopping Lists</p>
+                    <p>Create and manage shopping lists directly from your pantry items.</p>
+                </div>
+                <div class="column is-4">
+                    <p class="title"><i class="fas fa-chart-line"></i> Analytics</p>
+                    <p>Gain insights into usage patterns and optimize your pantry organization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+    function toggleNav() {
+        var sidebar = document.getElementById("mySidebar");
+        sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+    }
+</script>
+</body>
+</html>

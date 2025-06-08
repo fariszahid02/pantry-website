@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #f6f6f6;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header button {
+            background: #0056b3;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        header button:hover {
+            background: #004494;
+        }
+        .recipebox {
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #dcdcdc;
+        }
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 15px;
+        }
+        th, td {
+            padding: 8px 12px;
+            text-align: left;
+            font-size: 16px;
+        }
+        th {
+            color: #555;
+        }
+        td {
+            border-bottom: 1px solid #eee;
+        }
+        .ratebutton {
+            background: #16a085;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+            transition: background 0.3s ease-in-out;
+        }
+        .ratebutton:hover {
+            background: #149174;
+        }
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1001;
+            top: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: width 0.3s, padding 0.3s;
+            padding-top: 60px;
+        }
+        .sidebar.left {
+            left: 0;
+        }
+        .sidebar.right {
+            right: 0;
+        }
+        .sidebar a {
+            padding: 10px 0px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            font-size: 36px;
+            right: 25px; /* Move close button to the right */
+        }
+        .sidebar form {
+            color: white;
+        }
+        .sidebar h2, .sidebar h3, .sidebar label {
+            color: white;
+        }
+        .sidebar select, .sidebar input {
+            color: black;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: #f6f6f6;
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            background-color: #111;
+            padding: 10px;
+            margin-left: 20px;
+        }
+        .your-button {
+            width: 200px;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            font-size: 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .your-button:hover {
+            background-color: #2980b9;
+        }
+        .rate-form {
+            margin-top: 10px;
+        }
+        select {
+            padding: 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        h3 {
+            color: #E1DCDC;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <div>
+        <button class="openbtn" onclick="toggleNav('mySidebar')">☰ Menu</button>
+    </div>
+    <div>
+        <a href="{{ url_for('recipes.your_recipes') }}" class="your-button">My Recipes</a>
+        <a href="{{ url_for('recipes.add_recipes') }}" class="your-button">Create Recipes</a>
+        <a href="{{ url_for('recipes.in_use_recipes') }}" class="your-button">Using Recipes</a>
+        <button class="openbtn" onclick="toggleNav('filterSidebar')">☰ Filter & Sort</button>
+    </div>
+</div>
+
+<div id="mySidebar" class="sidebar left">
+    <a href="javascript:void(0)" class="closebtn left" onclick="toggleNav('mySidebar')">×</a>
+    <a href="/main-menu">Main</a>
+    <a href="/pantry/items">My Pantry</a>
+    <a href="/pantry/search">Food Browser</a>
+    <a href="/shopping/shopping_list">Shopping List</a>
+    <a href="/recipes/recipes">Recipes</a>
+    <a href="/barcodes/add_barcode">Save a Barcode</a>
+</div>
+
+<div id="filterSidebar" class="sidebar right">
+    <a href="javascript:void(0)" class="closebtn right" onclick="toggleNav('filterSidebar')">×</a>
+    <form action="{{ url_for('recipes.recipes') }}" method="get">
+        <h2>Filter & Sort Recipes</h2>
+        <h3>Sort by:</h3>
+        <select name="sort_by">
+            <option value="name">Name</option>
+            <option value="calories">Calories</option>
+            <option value="rating">Rating</option>
+        </select>
+
+        <h3>Filter by Can Make:</h3>
+        <label>
+            <input type="checkbox" name="can_make" value="1" style="margin-bottom: 20px;">
+            Can Make
+        </label>
+
+        <h3>Filter by Calories:</h3>
+        <input type="number" name="min_calories" placeholder="Min Calories" style="margin-bottom: 10px;">
+        <input type="number" name="max_calories" placeholder="Max Calories" style="margin-bottom: 20px;">
+
+        <h3>Filter by Rating:</h3>
+        <input type="number" name="min_rating" placeholder="Min Rating" style="margin-bottom: 20px;">
+
+        <h3>Filter by Ingredients:</h3>
+        <input type="text" name="ingredient" placeholder="Ingredient Name" style="margin-bottom: 20px;">
+
+        <h3>Filter by Serves:</h3>
+        <input type="number" name="serves" placeholder="Serves" style="margin-bottom: 20px;">
+
+        <button type="submit" class="your-button">Apply Filters</button>
+    </form>
+</div>
+
+{% for recipe in recipes %}
+<div class="recipebox">
+    <h2 class="recipe-name">
+        <a href="{{ url_for('recipes.recipes_detail', recipe_id=recipe.id) }}" style="text-decoration: none; color: inherit;">
+            {{ recipe.name }}
+        </a>
+    </h2>
+    <table>
+        <tr>
+            <th>Serves:</th>
+            <td>{{ recipe.serves }}</td>
+        </tr>
+        <tr>
+            <th>Calories:</th>
+            <td>{{ recipe.calories }} kcal</td>
+        </tr>
+        <tr>
+            <th>Rating:</th>
+            <td>{{ recipe.rating | default(0) }} / 5</td>
+        </tr>
+    </table>
+    <form class="rate-form" action="{{ url_for('recipes.rate_recipe', recipe_id=recipe.id) }}" method="POST">
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button type="submit" class="ratebutton">Rate</button>
+    </form>
+</div>
+{% endfor %}
+
+<script>
+    function toggleNav(sidebarId) {
+        var sidebar = document.getElementById(sidebarId);
+        if (sidebar.style.width === "250px" || sidebar.style.width === "300px") {
+            sidebar.style.width = "0";
+            sidebar.style.padding = "0";
+        } else {
+            if (sidebarId === 'mySidebar') {
+                sidebar.style.width = "250px";
+            } else {
+                sidebar.style.width = "300px";
+                sidebar.style.padding = "10px 20px";
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

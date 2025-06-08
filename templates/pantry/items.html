@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .food-item {
+            background: #eee;
+            padding: 10px;
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .food-label {
+            margin-right: 10px;
+            flex: 1;
+        }
+        .delete-button {
+            background-color: #f44336; /* Red for delete */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .delete-button:hover {
+            background-color: #d32f2f;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: width 0.3s;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 10px 0;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: #f6f6f6;
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            background-color: #111;
+            padding: 10px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <button class="openbtn" onclick="toggleNav()">☰ Menu</button>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+        <a href="/main-menu">Main</a>
+        <a href="/pantry/items">My Pantry</a>
+        <a href="/pantry/search">Food Browser</a>
+        <a href="/shopping/shopping_list">Shopping List</a>
+        <a href="/recipes/recipes">Recipes</a>
+        <a href="/barcodes/add_barcode">Save a Barcode</a>
+    </div>
+</div>
+<h1 class="title">Pantry List</h1>
+
+<div class="container">
+    <h2>All Items</h2>
+    {% for item in items %}
+    <div class="food-item">
+        <span class="food-label">Food: {{ item.qfooditem.fooditem.name }}</span>
+        <span class="food-label">Quantity: {{ item.qfooditem.quantity }} {{ item.qfooditem.units }}</span>
+        <span class="food-label">Exp: {{ item.expiry }}</span>
+        <span class="food-label">Calories: {{ item.calories }}</span>
+        <form action="{{ url_for('pantry.delete_item', item_id=item.id) }}" method="post" style="display:inline;" onsubmit="return confirmDelete()">
+            <button type="submit" class="delete-button">X</button>
+        </form>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="container">
+    <form method="get" action="/pantry/items">
+        <input type="text" name="min_calories" placeholder="Min Calories">
+        <input type="text" name="max_calories" placeholder="Max Calories">
+        <button type="submit">Filter</button>
+    </form>
+</div>
+
+{% if filtered_items is not none %}
+<div class="container">
+    <h2>Filtered Items</h2>
+    {% if filtered_items %}
+        {% for item in filtered_items %}
+            <div class="food-item">
+                <span class="food-label">Food: {{ item.qfooditem.fooditem.name }}</span>
+                <span class="food-label">Quantity: {{ item.qfooditem.quantity }} {{ item.qfooditem.units }}</span>
+                <span class="food-label">Exp: {{ item.expiry }}</span>
+                <span class="food-label">Calories: {{ item.calories }}</span>
+                <form action="{{ url_for('pantry.delete_item', item_id=item.id) }}" method="post" style="display:inline;" onsubmit="return confirmDelete()">
+                    <button type="submit" class="delete-button">X</button>
+                </form>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No items to display. Use the filter options above to find items.</p>
+    {% endif %}
+</div>
+{% endif %}
+
+<div class="container">
+    <h2><button onclick="location.href='/pantry/create_item'">Add Item to Pantry List</button></h2>
+</div>
+
+<div class="container">
+    <h2>Soon To Expire Food</h2>
+    {% for item in Foodaboutexpired %}
+    <div class="food-item">
+        <span>{{ item }}</span>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="container">
+    <h2>Expired Food</h2>
+    {% for item in Foodexpired %}
+    <div class="food-item">
+        <span>{{ item }}</span>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    function toggleNav() {
+        var sidebar = document.getElementById("mySidebar");
+        if (sidebar.style.width === "250px") {
+            sidebar.style.width = "0";
+        } else {
+            sidebar.style.width = "250px";
+        }
+    }
+
+    function confirmDelete() {
+        return confirm('Are you sure you want to delete this item?');
+    }
+</script>
+</body>
+</html>

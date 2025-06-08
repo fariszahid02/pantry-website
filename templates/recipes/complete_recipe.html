@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #ffffff;
+            margin: 0;
+            text-align: center;
+        }
+        .back-button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .rate-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .box {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <button class="back-button" onclick="location.href='/recipes/in_use_recipes'">Go Back</button>
+</div>
+<div class="column is-6 is-offset-3">
+    <h3 class="title">Rate Recipe</h3>
+    <div class="box">
+        <form action="{{ url_for('recipes.complete_recipe', recipe_id=recipe.id) }}" method="POST">
+            <label for="rating">Rate this recipe:</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+            <button type="submit" class="rate-button">Submit Rating</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;}
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #0056b3;
+            border-radius: 4px;
+            color: white;
+        }
+        tr:hover {background-color: #f5f5f5;}
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #FFFFFF;
+            margin: 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #f6f6f6;
+            padding: 20px;
+            text-align: center;
+        }
+        .information {
+            background-image: url('/static/img/user.png');
+            background-size: cover;
+            background-position: center;
+            width: 60px;
+            height: 40px;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .logout-button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            right: 80px;
+            top: 10px;}
+        .logout-button:hover {
+            background-color: #004494;
+        }
+        h1 { color: #333; }
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: #f6f6f6;
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            background-color: #111;
+            padding: 10px;
+            margin-left: 20px;
+        }
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: width 0.3s;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        .not_expire_card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .used_card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button class="openbtn" onclick="toggleNav()">☰ Menu</button>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+            <a href="/main-menu">Main</a>
+            <a href="/pantry/items">My Pantry</a>
+            <a href="/pantry/search">Food Browser</a>
+            <a href="/shopping/shopping_list">Shopping List</a>
+            <a href="/recipes/recipes">Recipes</a>
+            <a href="/barcodes/add_barcode">Save a Barcode</a>
+        </div>
+        <div class="information" onclick="location.href='/user/my_account'"></div>
+        <a href="{{ url_for('users.logout') }}" class="logout-button">Logout</a>
+    </div>
+    <section class="hero is-white is-halfheight">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Welcome to PantryPal <i class="fas fa-box-open"></i></h1>
+                <h2 class="subtitle">Today's Date: {{ today }}</h2>
+            </div>
+        </div>
+    </section>
+    Items Expiring Soon:
+    <div class="card-container">
+        {% for item in soon_to_expire_seven %}
+        <div class="not_expire_card">
+            <h3>{{ item.qfooditem.fooditem.name }}</h3>
+            <p>Expire date: {{ item.expiry }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    Expired Food:
+    <div class="card-container">
+        {% for item in used_items %}
+        <div class="used_card">
+            <h3>{{ item.qfooditem.fooditem.name }}</h3>
+            <p>Calories: {{ item.calories }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="footer">
+        <p>Copyright © 2024</p>
+    </div>
+
+    <script>
+        function toggleNav() {
+            var sidebar = document.getElementById("mySidebar");
+            var mainContent = document.getElementById("mainContent");
+            sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+            mainContent.style.marginLeft = mainContent.style.marginLeft === "250px" ? "0" : "250px";
+        }
+    </script>
+</body>
+</html>

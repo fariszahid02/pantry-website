@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:C="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f0f4f8;
+            margin: 0;
+            text-align: center;
+        }
+         .table-container {
+            display: flex;
+            justify-content: center;
+        }
+        .table {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1000px;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: #f0f4f8;
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logout-button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 8px;}
+        .logout-button:hover {
+            background-color: #004494;
+        }
+    </style>
+</head>
+
+{% block content %}
+        <div class="navbar">
+        <div class="information" onclick="location.href='/user/my_account'"></div>
+        <a href="{{ url_for('users.logout') }}" class="logout-button">Logout</a>
+    </div>
+<h3 class="title is-3">Admin</h3>
+<h4 class="subtitle is-4">
+    Welcome, {{ name }}
+</h4>
+
+<div class="column is-4 is-offset-4">
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="notification is-danger">
+                {{ messages[0] }}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+</div>
+ <div class="column is-8 is-offset-2">
+        <h4 class="title is-4">Current Users</h4>
+        <div class="box">
+            {% if current_users %}
+                <div class="field table-container">
+                    <table class="table is-striped is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Email</th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Role</th>
+                                <th>Date of Birth</th>
+                                <th>Deletion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for user in current_users %}
+                                <tr>
+                                    <td>{{ user.id }}</td>
+                                    <td>{{ user.email }}</td>
+                                    <td>{{ user.first_name }}</td>
+                                    <td>{{ user.last_name }}</td>
+                                    <td>{{ user.role }}</td>
+                                    <td>{{ user.dob }}</td>
+                                    <td>
+                                        <form action="{{ url_for('admin.delete_user', user_id=user.id) }}" method="post" style="display:inline;">
+                                            <button class="button is-danger" type="submit">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% endif %}
+            <form action="{{ url_for('admin.view_all_users') }}">
+                <div>
+                    <button class="button is-info is-centered">View All Users</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<div class="column is-8 is-offset-2" id="test">
+    <h4 class="title is-4">Security Logs</h4>
+    <div class="box">
+        {% if logs %}
+            <div class="field">
+            <table class="table">
+                <tr>
+                    <th>Last 10 Security Log Entries</th>
+                </tr>
+                {% for entry in logs %}
+                    <tr>
+                        <td>{{ entry }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        {% endif %}
+        <form action="{{ url_for('admin.logs') }}">
+            <div>
+                <button class="button is-info is-centered">View Logs</button>
+            </div>
+        </form>
+        </div>
+    </div>
+<div class="column is-8 is-offset-2">
+    <h4 class="title is-4">User Activity Logs</h4>
+    <div class="box">
+        {% if user_activities %}
+<!-- Inside your admin/user_activity.html template -->
+<table class="table">
+    <!-- Table headers -->
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Registration Date</th>
+            <th>Last Login</th>
+            <th>Current Login</th>
+            <th>Last Login IP</th>
+            <th>Current Login IP</th>
+            <th>Total login</th>
+        </tr>
+    </thead>
+    <!-- Table body -->
+    <tbody>
+        {% for activity in user_activities %}
+            <tr>
+                <td>{{ activity.id }}</td>
+                <td>{{ activity.email }}</td>
+                <td>{{ activity.registration_date }}</td>
+                <td>{{ activity.last_login }}</td>
+                <td>{{ activity.current_login }}</td>
+                <td>{{ activity.last_login_ip }}</td>
+                <td>{{ activity.current_login_ip }}</td>
+                <td>{{ activity.total_logins }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+        {% else %}
+            <p>No user activities found.</p>
+        {% endif %}
+        <form action="{{ url_for('admin.view_user_activity') }}">
+            <button class="button is-info is-centered" type="submit">View User Activity</button>
+        </form>
+    </div>
+</div>
+
+</div>
+{% endblock %}

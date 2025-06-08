@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Shopping List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #f6f6f6;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        button {
+            background: #0056b3;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        button:hover {
+            background: #004494;
+        }
+        .back-button {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .container {
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 20px; /* Add spacing between button and container */
+        }
+        .field {
+            margin-bottom: 20px;
+        }
+        .field .control {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button onclick="location.href='/shopping/shopping_list'" class="back-button">Back to Shopping Lists</button>
+    </header>
+    <div class="container">
+        <h1>Create New Shopping List</h1>
+        {% if form %}
+        <form method="POST" action="{{ url_for('shopping.create_shopping_list') }}">
+            {{ form.hidden_tag() }}
+            <div class="field">
+                <div class="control">
+                    {{ form.listName(class="input", placeholder="New shopping list name") }}
+                </div>
+            </div>
+            <div>
+                {{ form.submit(class="button is-info is-centered") }}
+            </div>
+        </form>
+        {% endif %}
+    </div>
+</body>
+</html>

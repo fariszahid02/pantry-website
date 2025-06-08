@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Food</title>
+    <script>
+        function fillForm() {
+            const filepathFieldValue = document.getElementById('filepath').value;
+            fetch(`/barcodes/get-barcode-value?filepath=${encodeURIComponent(filepathFieldValue)}`)
+            .then(response => response.json())
+                .then(data => {
+                    document.getElementById('barcode').value = data.scan;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .box {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="date"], input[type="number"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .barcode-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;  /* Green color for the fill form button */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .barcode-btn:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+        .actionbtn {
+            width: 100%;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .actionbtn:hover {
+            background-color: #004494;
+        }
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: width 0.3s;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 10px 0;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: #f6f6f6;
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            background-color: #111;
+            padding: 10px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button class="openbtn" onclick="toggleNav()">☰ Menu</button>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+            <a href="/main-menu">Main</a>
+            <a href="/pantry/items">My Pantry</a>
+            <a href="/pantry/search">Food Browser</a>
+            <a href="/shopping/shopping_list">Shopping List</a>
+            <a href="/recipes/recipes">Recipes</a>
+            <a href="/barcodes/add_barcode">Save a Barcode</a>
+        </div>
+    </div>
+    <p>Please fill in the form below to add a barcode:</p>
+    <div class="box">
+        <form action="/barcodes/add_barcode" method="post">
+            {{ form.hidden_tag() }}
+            <label for="barcode">Barcode:</label>
+            <input type="text" id="barcode" name="barcode" required>
+
+            <label for="food">Food:</label>
+            <input type="text" id="food" name="food" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label for="units">Unit:</label>
+            <input type="text" id="units" name="units" required>
+
+            <button type="button" class="barcode-btn"onclick="fillForm()">Scan a Barcode to Auto-Fill Barcode Field</button>
+            <input type="text" id="filepath" name="filepath" placeholder="Optionally, enter an image's filepath to scan a barcode from it">
+            <button type="submit" class="actionbtn">Save Barcode Information</button>
+        </form>
+    </div>
+    <script>
+        function toggleNav() {
+            var sidebar = document.getElementById("mySidebar");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</body>
+</html>

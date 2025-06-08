@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER PAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            width: 300px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        input{
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input {
+            border-color: #0056b3;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004494;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+{#        <!--  Flash  -->#}
+{#        {% with messages = get_flashed_messages() %}#}
+{#          {% if messages %}#}
+{#            <ul class="flashes">#}
+{#            {% for message in messages %}#}
+{#              <li>{{ message }}</li>#}
+{#            {% endfor %}#}
+{#            </ul>#}
+{#          {% endif %}#}
+{#        {% endwith %}#}
+
+    {% block content %}
+    <div class="column is-5 is-offset-4">
+        <h3 class="title is-3">Register</h3>
+        <div class="box">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <div class="notification is-danger">
+                        {{ messages[0] }}. Go to <a href="{{ url_for('users.login') }}">login page</a>.
+                    </div>
+                {% endif %}
+            {% endwith %}
+            <form method="POST">
+                <div class="field">
+                    {{ form.csrf_token() }}
+                    <div class="control">
+                        {{ form.email(class="input", placeholder="Email") }}
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        {{ form.first_name(class="input", placeholder="First Name") }}
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        {{ form.last_name(class="input", placeholder="Last Name") }}
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        {{ form.password(class="input", placeholder="Password") }}
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        {{ form.confirm_password(class="input", placeholder="Confirm Password") }}
+                    </div>
+
+                </div>
+                <div class="field">
+                <div class="control">
+                    {{ form.dob(class="input", placeholder="Date of Birth (DD/MM/YYYY)") }}
+                </div>
+            </div>
+            <div class="field">
+                {{ form.submit(class="button is-info") }}
+            </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
+{#        <h2>Register</h2>#}
+{#        <form action="/user/register" method="post">#}
+{#            Last Name：<input type="text" name="last_name"><br>#}
+{#            First Name：<input type="text" name="first_name"><br>#}
+{#            Email：<input type="email" name="email"><br>#}
+{#            Date of Birth：<input type="date" name="dob"><br>#}
+{#            Password：<input type="password" name="password"><br>#}
+{#            Enter Password Again：<input type="password" name="confirm_password"><br>#}
+{#            <button type="submit">Register</button>#}
+{#        </form>#}
+    </div>
+</body>
+</html>

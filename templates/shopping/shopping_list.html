@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #f6f6f6;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        header button {
+            background: #0056b3;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        header button:hover {
+            background: #004494;
+        }
+        .container {
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .shopping-list {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .shopping-list h2 {
+            display: inline;
+            cursor: pointer;
+        }
+        .shopping-list form {
+            display: inline;
+        }
+        .delete-button, .complete-button {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .delete-button:hover, .complete-button:hover {
+            background-color: #d32f2f;
+        }
+        .complete-button {
+            background-color: #4caf50;
+            margin-left: 10px;
+        }
+        .complete-button:hover {
+            background-color: #45a049;
+        }
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: width 0.3s;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 10px 0px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: #f6f6f6;
+            z-index: 1;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            background-color: #111;
+            padding: 10px;
+            margin-left: 20px;
+        }
+        .your-button {
+            width: 200px;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            font-size: 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .your-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <button class="openbtn" onclick="toggleNav()">☰ Menu</button>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+        <a href="/main-menu">Main</a>
+        <a href="/pantry/items">My Pantry</a>
+        <a href="/pantry/search">Food Browser</a>
+        <a href="/shopping/shopping_list">Shopping List</a>
+        <a href="/recipes/recipes">Recipes</a>
+        <a href="/barcodes/add_barcode">Save a Barcode</a>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Shopping Lists</h1>
+    {% for shopping_list in shopping_lists %}
+        <div class="shopping-list" id="shopping-list-{{ shopping_list.id }}">
+            <h2 onclick="location.href='{{ url_for('shopping.shopping_list_detail', list_id=shopping_list.id) }}'">{{ shopping_list.list_name }}</h2>
+            <div>
+                <form action="{{ url_for('shopping.complete_list', list_id=shopping_list.id) }}" method="POST" style="display:inline;">
+                    <button class="complete-button" type="submit">Complete</button>
+                </form>
+                <form action="{{ url_for('shopping.delete_list', list_id=shopping_list.id) }}" method="POST" style="display:inline;">
+                    <button class="delete-button" type="submit">X</button>
+                </form>
+            </div>
+        </div>
+    {% endfor %}
+    <button class="your-button" onclick="location.href='{{ url_for('shopping.create_shopping_list') }}'">Create New Shopping List</button>
+</div>
+
+<script>
+    function toggleNav() {
+        var sidebar = document.getElementById("mySidebar");
+        sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+    }
+</script>
+</body>
+</html>

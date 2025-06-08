@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #f6f6f6;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        button {
+            background: #0056b3;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        button:hover {
+            background: #004494;
+        }
+        .back-button {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .container {
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .shopping-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .shopping-item .details {
+            text-align: left;
+            flex: 2;
+        }
+        .shopping-item .quantity {
+            text-align: center;
+            flex: 1;
+        }
+        .delete-button {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .delete-button:hover {
+            background-color: #d32f2f;
+        }
+        .field {
+            margin-bottom: 20px;
+        }
+        .field .control {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button onclick="location.href='/shopping/shopping_list'" class="back-button">Back to Shopping Lists</button>
+    </header>
+    <div class="container">
+        <h1>Shopping List Details: {{ shopping_list.list_name }}</h1>
+        {% if form %}
+        <form method="POST" action="{{ url_for('shopping.shopping_list_detail', list_id=shopping_list.id) }}">
+            {{ form.hidden_tag() }}
+            <div class="field">
+                <div class="control">
+                    {{ form.newItem(class="input", placeholder="Add new item to list") }}
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    {{ form.itemQuantity(class="input", placeholder="Enter item quantity") }}
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    {{ form.itemUnits(class="input", placeholder="Enter units of item (g or ml)") }}
+                </div>
+            </div>
+            <div>
+                {{ form.submit(class="button is-info is-centered") }}
+            </div>
+        </form>
+        {% endif %}
+        <div class="shopping-list-details">
+            <h2>List of Items</h2>
+            {% for item in shopping_list.shopping_items %}
+                <div class="shopping-item" id="shopping-item-{{ item.id }}">
+                    <span class="details">Ingredients: {{ item.qfooditem.fooditem.name }}</span>
+                    <span class="quantity">Quantity: {{ item.qfooditem.quantity }} {{ item.qfooditem.units }}</span>
+                    <form action="{{ url_for('shopping.delete_item', item_id=item.id) }}" method="POST">
+                        <button class="delete-button" type="submit">X</button>
+                    </form>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

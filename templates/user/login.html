@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            width: 300px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        input{
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004494;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+{#<div class="container">#}
+{#    {% with messages = get_flashed_messages() %}#}
+{#          {% if messages %}#}
+{#            <ul class="flashes">#}
+{#            {% for message in messages %}#}
+{#              <li>{{ message }}</li>#}
+{#            {% endfor %}#}
+{#            </ul>#}
+{#          {% endif %}#}
+{#        {% endwith %}#}
+{#    <form action="/user/login" method="post">#}
+{#        your email address：<input type="text" name="email"><br>#}
+{#        Password：<input type="password" name="password"><br>#}
+{#        <button type="submit">login</button>#}
+{#    </form>#}
+{#    <a href="/user/register">register</a>#}
+
+{% block content %}
+    <div class="container">
+        <h3 class="title is-3">Login</h3>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div class="field">
+                {{ form.email.label(class="label") }}
+                <div class="control">
+                    {{ form.email(class="input") }}
+                </div>
+            </div>
+            <div class="field">
+                {{ form.password.label(class="label") }}
+                <div class="control">
+                    {{ form.password(class="input") }}
+                </div>
+            </div>
+            <div class="field">
+                {{ form.submit(class="button is-info") }}
+            </div>
+        </form>
+        </div>
+
+</body>
+{% endblock %}
+</html>

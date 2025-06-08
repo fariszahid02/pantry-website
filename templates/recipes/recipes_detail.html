@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #ffffff;
+            margin: 0;
+            text-align: center;
+        }
+        .back-button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .use-button, .create-shopping-list-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .create-shopping-list-button {
+            background-color: #f44336;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <button class="back-button" onclick="location.href='/recipes/recipes'">Go Back</button>
+</div>
+<div class="column is-6 is-offset-3">
+    <h3 class="title">Recipe Details</h3>
+    <div class="box">
+        <table class="table">
+        <tbody>
+            <tr>
+                <th>Preparation Method:</th>
+                <td>{{ recipe.method }}</td>
+            </tr>
+            <tr>
+                <th>Ingredients:</th>
+                <td>
+                    {% for ingredient in ingredients %}
+                        <li>{{ ingredient.qfooditem.fooditem.name }}: {{ ingredient.qfooditem.quantity }}{{ ingredient.qfooditem.units }}</li>
+                    {% endfor %}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {% if can_make_recipe %}
+                        <p>You have the ingredients to make this recipe</p>
+                    {% else %}
+                        <p>You do not have the ingredients to make this recipe. Missing ingredients:</p>
+                        <ul>
+                            {% for item in missing_ingredients %}
+                                <li>{{ item.name }}: {{ item.quantity }} {{ item.units }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </td>
+            </tr>
+        </tbody>
+        </table>
+        {% if can_make_recipe %}
+            <button class="use-button" data-recipe-id="{{ recipe.id }}" onclick="useRecipe(this)">Use This Recipe</button>
+        {% else %}
+            <button class="create-shopping-list-button" data-recipe-id="{{ recipe.id }}" onclick="createShoppingList(this)">Create Shopping List</button>
+        {% endif %}
+    </div>
+</div>
+<script>
+    function useRecipe(button) {
+        const recipe_id = button.getAttribute('data-recipe-id');
+        if (confirm("Are you sure you want to use this recipe?")) {
+            fetch(`/recipes/use_recipe/${recipe_id}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_id: {{ current_user.id }} })
+            }).then(response => {
+                if (response.ok) {
+                    alert('Recipe is now in use.');
+                    window.location.href = "/recipes/in_use_recipes";
+                } else {
+                    alert('Failed to use the recipe.');
+                }
+            });
+        }
+    }
+
+    function createShoppingList(button) {
+        const recipe_id = button.getAttribute('data-recipe-id');
+        if (confirm("You don't have enough ingredients. Do you want to create a shopping list?")) {
+            fetch(`/recipes/create_shopping_list/${recipe_id}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_id: {{ current_user.id }} })
+            }).then(response => {
+                if (response.ok) {
+                    alert('Shopping list created.');
+                    window.location.href = "/shopping/shopping_list";
+                } else {
+                    alert('Failed to create shopping list.');
+                }
+            });
+        }
+    }
+</script>
+</body>
+</html>
+
+
